@@ -1,0 +1,5869 @@
+{
+  "version": "1.0",
+  "rules": {
+    "rule_in_enclosed_space": {
+      "id": "rule_in_enclosed_space",
+      "short": "IN — enclosed spaces, rooms, buildings, containers",
+      "example": "in the room, in a box, in the car, in a hotel"
+    },
+    "rule_in_area": {
+      "id": "rule_in_area",
+      "short": "IN — countries, cities, regions, large open areas",
+      "example": "in France, in London, in the north, in the park"
+    },
+    "rule_on_surface": {
+      "id": "rule_on_surface",
+      "short": "ON — surfaces (horizontal or vertical), things seen as flat",
+      "example": "on the table, on the floor, on the wall, on the ceiling"
+    },
+    "rule_on_transport": {
+      "id": "rule_on_transport",
+      "short": "ON — public transport and large vehicles",
+      "example": "on the bus, on a train, on a plane, on a ship"
+    },
+    "rule_at_specific_point": {
+      "id": "rule_at_specific_point",
+      "short": "AT — specific points, addresses, precise locations",
+      "example": "at the station, at home, at the top, at the door"
+    },
+    "rule_at_event": {
+      "id": "rule_at_event",
+      "short": "AT — events, institutions, gatherings",
+      "example": "at the party, at school, at work, at a concert"
+    },
+    "rule_in_long_period": {
+      "id": "rule_in_long_period",
+      "short": "IN — months, years, centuries, seasons, parts of the day",
+      "example": "in January, in 2023, in the morning, in summer"
+    },
+    "rule_on_day": {
+      "id": "rule_on_day",
+      "short": "ON — days of the week, specific dates, named days",
+      "example": "on Monday, on the 5th, on my birthday, on New Year's Day"
+    },
+    "rule_at_time": {
+      "id": "rule_at_time",
+      "short": "AT — clock times and fixed time points",
+      "example": "at 5pm, at noon, at midnight, at dawn"
+    },
+    "rule_by_deadline": {
+      "id": "rule_by_deadline",
+      "short": "BY — no later than a certain point (deadline)",
+      "example": "by Friday, by noon, by the end of the week"
+    },
+    "rule_until_continuous": {
+      "id": "rule_until_continuous",
+      "short": "UNTIL/TILL — continuously up to a point in time",
+      "example": "until midnight, till Monday, until she arrives"
+    },
+    "rule_for_duration": {
+      "id": "rule_for_duration",
+      "short": "FOR — over a period of time (how long)",
+      "example": "for two hours, for years, for a long time, for a week"
+    },
+    "rule_to_destination": {
+      "id": "rule_to_destination",
+      "short": "TO — movement toward a destination",
+      "example": "go to school, travel to France, drive to work"
+    },
+    "rule_for_purpose": {
+      "id": "rule_for_purpose",
+      "short": "FOR — purpose, benefit, or intended recipient",
+      "example": "for you, work for a company, for fun, a gift for her"
+    },
+    "rule_with_accompaniment": {
+      "id": "rule_with_accompaniment",
+      "short": "WITH — accompaniment, using a tool or ingredient",
+      "example": "with friends, with a knife, pay with cash, coffee with milk"
+    },
+    "rule_from_origin": {
+      "id": "rule_from_origin",
+      "short": "FROM — starting point, origin, or source",
+      "example": "from London, from the beginning, a letter from her"
+    },
+    "rule_of_possession": {
+      "id": "rule_of_possession",
+      "short": "OF — belonging, content, or part of a whole",
+      "example": "the top of the hill, a cup of tea, a friend of mine"
+    },
+    "rule_about_topic": {
+      "id": "rule_about_topic",
+      "short": "ABOUT — concerning a topic or subject",
+      "example": "talk about work, worried about money, a book about history"
+    },
+    "rule_irregular_collocation": {
+      "id": "rule_irregular_collocation",
+      "short": "Fixed phrase — this preposition does not follow spatial logic. It must be memorized.",
+      "example": "good AT, interested IN, depend ON, responsible FOR"
+    }
+  },
+  "clusters": [
+    {
+      "id": "place_in_on_at",
+      "title": "IN / ON / AT — Place",
+      "subtitle": "Where exactly are you?",
+      "prepositions": [
+        "in",
+        "on",
+        "at"
+      ],
+      "intro_rules": [
+        "rule_in_enclosed_space",
+        "rule_in_area",
+        "rule_on_surface",
+        "rule_on_transport",
+        "rule_at_specific_point",
+        "rule_at_event"
+      ],
+      "contrast_note": "IN = inside an area or space. ON = touching a surface. AT = a precise point. Context decides.",
+      "cards": [
+        {
+          "id": "p_001",
+          "cluster_id": "place_in_on_at",
+          "sentence": "She arrived ___ the airport just before midnight.",
+          "correct": "at",
+          "distractors": [
+            "in",
+            "on",
+            "to"
+          ],
+          "rule_id": "rule_at_specific_point",
+          "tags": [
+            "difficulty_1"
+          ],
+          "is_famous": false,
+          "is_irregular": false,
+          "source": null
+        },
+        {
+          "id": "p_002",
+          "cluster_id": "place_in_on_at",
+          "sentence": "The book is ___ the shelf above the desk.",
+          "correct": "on",
+          "distractors": [
+            "in",
+            "at",
+            "under"
+          ],
+          "rule_id": "rule_on_surface",
+          "tags": [
+            "difficulty_1"
+          ],
+          "is_famous": false,
+          "is_irregular": false,
+          "source": null
+        },
+        {
+          "id": "p_003",
+          "cluster_id": "place_in_on_at",
+          "sentence": "He grew up ___ a small village in the south.",
+          "correct": "in",
+          "distractors": [
+            "on",
+            "at",
+            "from"
+          ],
+          "rule_id": "rule_in_area",
+          "tags": [
+            "difficulty_1"
+          ],
+          "is_famous": false,
+          "is_irregular": false,
+          "source": null
+        },
+        {
+          "id": "p_004",
+          "cluster_id": "place_in_on_at",
+          "sentence": "We met ___ the corner of Park Street.",
+          "correct": "at",
+          "distractors": [
+            "in",
+            "on",
+            "by"
+          ],
+          "rule_id": "rule_at_specific_point",
+          "tags": [
+            "difficulty_1"
+          ],
+          "is_famous": false,
+          "is_irregular": false,
+          "source": null
+        },
+        {
+          "id": "p_005",
+          "cluster_id": "place_in_on_at",
+          "sentence": "There's a strange stain ___ the ceiling.",
+          "correct": "on",
+          "distractors": [
+            "in",
+            "at",
+            "across"
+          ],
+          "rule_id": "rule_on_surface",
+          "tags": [
+            "difficulty_1"
+          ],
+          "is_famous": false,
+          "is_irregular": false,
+          "source": null
+        },
+        {
+          "id": "p_006",
+          "cluster_id": "place_in_on_at",
+          "sentence": "She has lived ___ Japan for three years.",
+          "correct": "in",
+          "distractors": [
+            "on",
+            "at",
+            "to"
+          ],
+          "rule_id": "rule_in_area",
+          "tags": [
+            "difficulty_1"
+          ],
+          "is_famous": false,
+          "is_irregular": false,
+          "source": null
+        },
+        {
+          "id": "p_007",
+          "cluster_id": "place_in_on_at",
+          "sentence": "The children are playing ___ the garden.",
+          "correct": "in",
+          "distractors": [
+            "on",
+            "at",
+            "through"
+          ],
+          "rule_id": "rule_in_area",
+          "tags": [
+            "difficulty_1"
+          ],
+          "is_famous": false,
+          "is_irregular": false,
+          "source": null
+        },
+        {
+          "id": "p_008",
+          "cluster_id": "place_in_on_at",
+          "sentence": "He left his keys ___ the kitchen counter.",
+          "correct": "on",
+          "distractors": [
+            "in",
+            "at",
+            "by"
+          ],
+          "rule_id": "rule_on_surface",
+          "tags": [
+            "difficulty_1"
+          ],
+          "is_famous": false,
+          "is_irregular": false,
+          "source": null
+        },
+        {
+          "id": "p_009",
+          "cluster_id": "place_in_on_at",
+          "sentence": "I'll wait for you ___ the entrance.",
+          "correct": "at",
+          "distractors": [
+            "in",
+            "on",
+            "by"
+          ],
+          "rule_id": "rule_at_specific_point",
+          "tags": [
+            "difficulty_1"
+          ],
+          "is_famous": false,
+          "is_irregular": false,
+          "source": null
+        },
+        {
+          "id": "p_010",
+          "cluster_id": "place_in_on_at",
+          "sentence": "She works ___ the third floor of the building.",
+          "correct": "on",
+          "distractors": [
+            "in",
+            "at",
+            "to"
+          ],
+          "rule_id": "rule_on_surface",
+          "tags": [
+            "difficulty_2"
+          ],
+          "is_famous": false,
+          "is_irregular": false,
+          "source": null
+        },
+        {
+          "id": "p_011",
+          "cluster_id": "place_in_on_at",
+          "sentence": "We had a wonderful dinner ___ a restaurant by the river.",
+          "correct": "at",
+          "distractors": [
+            "in",
+            "on",
+            "to"
+          ],
+          "rule_id": "rule_at_event",
+          "tags": [
+            "difficulty_2"
+          ],
+          "is_famous": false,
+          "is_irregular": false,
+          "source": null
+        },
+        {
+          "id": "p_012",
+          "cluster_id": "place_in_on_at",
+          "sentence": "He fell asleep ___ the bus on the way home.",
+          "correct": "on",
+          "distractors": [
+            "in",
+            "at",
+            "during"
+          ],
+          "rule_id": "rule_on_transport",
+          "tags": [
+            "difficulty_2"
+          ],
+          "is_famous": false,
+          "is_irregular": false,
+          "source": null
+        },
+        {
+          "id": "p_013",
+          "cluster_id": "place_in_on_at",
+          "sentence": "She found her phone ___ her coat pocket.",
+          "correct": "in",
+          "distractors": [
+            "on",
+            "at",
+            "inside"
+          ],
+          "rule_id": "rule_in_enclosed_space",
+          "tags": [
+            "difficulty_1"
+          ],
+          "is_famous": false,
+          "is_irregular": false,
+          "source": null
+        },
+        {
+          "id": "p_014",
+          "cluster_id": "place_in_on_at",
+          "sentence": "They sat ___ the front row during the show.",
+          "correct": "in",
+          "distractors": [
+            "on",
+            "at",
+            "to"
+          ],
+          "rule_id": "rule_in_enclosed_space",
+          "tags": [
+            "difficulty_1"
+          ],
+          "is_famous": false,
+          "is_irregular": false,
+          "source": null
+        },
+        {
+          "id": "p_015",
+          "cluster_id": "place_in_on_at",
+          "sentence": "He hung a painting ___ the wall beside the window.",
+          "correct": "on",
+          "distractors": [
+            "in",
+            "at",
+            "above"
+          ],
+          "rule_id": "rule_on_surface",
+          "tags": [
+            "difficulty_1"
+          ],
+          "is_famous": false,
+          "is_irregular": false,
+          "source": null
+        },
+        {
+          "id": "p_016",
+          "cluster_id": "place_in_on_at",
+          "sentence": "She was waiting ___ the bus stop when it started to rain.",
+          "correct": "at",
+          "distractors": [
+            "in",
+            "on",
+            "by"
+          ],
+          "rule_id": "rule_at_specific_point",
+          "tags": [
+            "difficulty_1"
+          ],
+          "is_famous": false,
+          "is_irregular": false,
+          "source": null
+        },
+        {
+          "id": "p_017",
+          "cluster_id": "place_in_on_at",
+          "sentence": "The cat is sleeping ___ the sofa.",
+          "correct": "on",
+          "distractors": [
+            "in",
+            "at",
+            "under"
+          ],
+          "rule_id": "rule_on_surface",
+          "tags": [
+            "difficulty_1"
+          ],
+          "is_famous": false,
+          "is_irregular": false,
+          "source": null
+        },
+        {
+          "id": "p_018",
+          "cluster_id": "place_in_on_at",
+          "sentence": "We arrived ___ the train station an hour early.",
+          "correct": "at",
+          "distractors": [
+            "in",
+            "on",
+            "to"
+          ],
+          "rule_id": "rule_at_specific_point",
+          "tags": [
+            "difficulty_1"
+          ],
+          "is_famous": false,
+          "is_irregular": false,
+          "source": null
+        },
+        {
+          "id": "p_019",
+          "cluster_id": "place_in_on_at",
+          "sentence": "There was a spider ___ the corner of the room.",
+          "correct": "in",
+          "distractors": [
+            "on",
+            "at",
+            "by"
+          ],
+          "rule_id": "rule_in_enclosed_space",
+          "tags": [
+            "difficulty_2"
+          ],
+          "is_famous": false,
+          "is_irregular": false,
+          "source": null
+        },
+        {
+          "id": "p_020",
+          "cluster_id": "place_in_on_at",
+          "sentence": "He works ___ a hospital in the city centre.",
+          "correct": "at",
+          "distractors": [
+            "in",
+            "on",
+            "for"
+          ],
+          "rule_id": "rule_at_event",
+          "tags": [
+            "difficulty_2"
+          ],
+          "is_famous": false,
+          "is_irregular": false,
+          "source": null
+        },
+        {
+          "id": "p_021",
+          "cluster_id": "place_in_on_at",
+          "sentence": "The children were splashing around ___ the pool.",
+          "correct": "in",
+          "distractors": [
+            "on",
+            "at",
+            "through"
+          ],
+          "rule_id": "rule_in_enclosed_space",
+          "tags": [
+            "difficulty_1"
+          ],
+          "is_famous": false,
+          "is_irregular": false,
+          "source": null
+        },
+        {
+          "id": "p_022",
+          "cluster_id": "place_in_on_at",
+          "sentence": "I saw her name ___ the list on the noticeboard.",
+          "correct": "on",
+          "distractors": [
+            "in",
+            "at",
+            "from"
+          ],
+          "rule_id": "rule_on_surface",
+          "tags": [
+            "difficulty_1"
+          ],
+          "is_famous": false,
+          "is_irregular": false,
+          "source": null
+        },
+        {
+          "id": "p_023",
+          "cluster_id": "place_in_on_at",
+          "sentence": "We all gathered ___ the town square for the celebrations.",
+          "correct": "in",
+          "distractors": [
+            "on",
+            "at",
+            "to"
+          ],
+          "rule_id": "rule_in_area",
+          "tags": [
+            "difficulty_1"
+          ],
+          "is_famous": false,
+          "is_irregular": false,
+          "source": null
+        },
+        {
+          "id": "p_024",
+          "cluster_id": "place_in_on_at",
+          "sentence": "She is studying ___ a university in Edinburgh.",
+          "correct": "at",
+          "distractors": [
+            "in",
+            "on",
+            "for"
+          ],
+          "rule_id": "rule_at_event",
+          "tags": [
+            "difficulty_2"
+          ],
+          "is_famous": false,
+          "is_irregular": false,
+          "source": null
+        },
+        {
+          "id": "p_025",
+          "cluster_id": "place_in_on_at",
+          "sentence": "He put the glasses ___ the bathroom cabinet.",
+          "correct": "in",
+          "distractors": [
+            "on",
+            "at",
+            "inside"
+          ],
+          "rule_id": "rule_in_enclosed_space",
+          "tags": [
+            "difficulty_1"
+          ],
+          "is_famous": false,
+          "is_irregular": false,
+          "source": null
+        },
+        {
+          "id": "p_026",
+          "cluster_id": "place_in_on_at",
+          "sentence": "The dog was sitting ___ the doorstep.",
+          "correct": "on",
+          "distractors": [
+            "in",
+            "at",
+            "by"
+          ],
+          "rule_id": "rule_on_surface",
+          "tags": [
+            "difficulty_1"
+          ],
+          "is_famous": false,
+          "is_irregular": false,
+          "source": null
+        },
+        {
+          "id": "p_027",
+          "cluster_id": "place_in_on_at",
+          "sentence": "They met ___ a conference in Berlin.",
+          "correct": "at",
+          "distractors": [
+            "in",
+            "on",
+            "during"
+          ],
+          "rule_id": "rule_at_event",
+          "tags": [
+            "difficulty_2"
+          ],
+          "is_famous": false,
+          "is_irregular": false,
+          "source": null
+        },
+        {
+          "id": "p_028",
+          "cluster_id": "place_in_on_at",
+          "sentence": "She grew up ___ the north of England.",
+          "correct": "in",
+          "distractors": [
+            "on",
+            "at",
+            "from"
+          ],
+          "rule_id": "rule_in_area",
+          "tags": [
+            "difficulty_1"
+          ],
+          "is_famous": false,
+          "is_irregular": false,
+          "source": null
+        },
+        {
+          "id": "p_029",
+          "cluster_id": "place_in_on_at",
+          "sentence": "There are beautiful murals painted ___ the ceiling of the chapel.",
+          "correct": "on",
+          "distractors": [
+            "in",
+            "at",
+            "across"
+          ],
+          "rule_id": "rule_on_surface",
+          "tags": [
+            "difficulty_2"
+          ],
+          "is_famous": false,
+          "is_irregular": false,
+          "source": null
+        },
+        {
+          "id": "p_030",
+          "cluster_id": "place_in_on_at",
+          "sentence": "He sat ___ the top of the hill and watched the sunset.",
+          "correct": "on",
+          "distractors": [
+            "in",
+            "at",
+            "by"
+          ],
+          "rule_id": "rule_on_surface",
+          "tags": [
+            "difficulty_1"
+          ],
+          "is_famous": false,
+          "is_irregular": false,
+          "source": null
+        },
+        {
+          "id": "p_031",
+          "cluster_id": "place_in_on_at",
+          "sentence": "We stayed ___ a bed and breakfast near the coast.",
+          "correct": "at",
+          "distractors": [
+            "in",
+            "on",
+            "for"
+          ],
+          "rule_id": "rule_at_specific_point",
+          "tags": [
+            "difficulty_2"
+          ],
+          "is_famous": false,
+          "is_irregular": false,
+          "source": null
+        },
+        {
+          "id": "p_032",
+          "cluster_id": "place_in_on_at",
+          "sentence": "She left a note ___ his desk before leaving.",
+          "correct": "on",
+          "distractors": [
+            "in",
+            "at",
+            "by"
+          ],
+          "rule_id": "rule_on_surface",
+          "tags": [
+            "difficulty_1"
+          ],
+          "is_famous": false,
+          "is_irregular": false,
+          "source": null
+        },
+        {
+          "id": "p_033",
+          "cluster_id": "place_in_on_at",
+          "sentence": "They live ___ a quiet suburb outside the city.",
+          "correct": "in",
+          "distractors": [
+            "on",
+            "at",
+            "by"
+          ],
+          "rule_id": "rule_in_area",
+          "tags": [
+            "difficulty_1"
+          ],
+          "is_famous": false,
+          "is_irregular": false,
+          "source": null
+        },
+        {
+          "id": "p_034",
+          "cluster_id": "place_in_on_at",
+          "sentence": "He was sitting ___ the back of the room, away from the screen.",
+          "correct": "at",
+          "distractors": [
+            "in",
+            "on",
+            "to"
+          ],
+          "rule_id": "rule_at_specific_point",
+          "tags": [
+            "difficulty_2"
+          ],
+          "is_famous": false,
+          "is_irregular": false,
+          "source": null
+        },
+        {
+          "id": "p_035",
+          "cluster_id": "place_in_on_at",
+          "sentence": "She put her bag ___ the overhead compartment.",
+          "correct": "in",
+          "distractors": [
+            "on",
+            "at",
+            "into"
+          ],
+          "rule_id": "rule_in_enclosed_space",
+          "tags": [
+            "difficulty_2"
+          ],
+          "is_famous": false,
+          "is_irregular": false,
+          "source": null
+        },
+        {
+          "id": "p_036",
+          "cluster_id": "place_in_on_at",
+          "sentence": "The poster was stuck ___ the door of his room.",
+          "correct": "on",
+          "distractors": [
+            "in",
+            "at",
+            "to"
+          ],
+          "rule_id": "rule_on_surface",
+          "tags": [
+            "difficulty_1"
+          ],
+          "is_famous": false,
+          "is_irregular": false,
+          "source": null
+        },
+        {
+          "id": "p_037",
+          "cluster_id": "place_in_on_at",
+          "sentence": "He was born ___ a small coastal town.",
+          "correct": "in",
+          "distractors": [
+            "on",
+            "at",
+            "from"
+          ],
+          "rule_id": "rule_in_area",
+          "tags": [
+            "difficulty_1"
+          ],
+          "is_famous": false,
+          "is_irregular": false,
+          "source": null
+        },
+        {
+          "id": "p_038",
+          "cluster_id": "place_in_on_at",
+          "sentence": "She was ___ the kitchen when the phone rang.",
+          "correct": "in",
+          "distractors": [
+            "on",
+            "at",
+            "into"
+          ],
+          "rule_id": "rule_in_enclosed_space",
+          "tags": [
+            "difficulty_1"
+          ],
+          "is_famous": false,
+          "is_irregular": false,
+          "source": null
+        },
+        {
+          "id": "p_039",
+          "cluster_id": "place_in_on_at",
+          "sentence": "They met ___ the wedding reception last summer.",
+          "correct": "at",
+          "distractors": [
+            "in",
+            "on",
+            "during"
+          ],
+          "rule_id": "rule_at_event",
+          "tags": [
+            "difficulty_2"
+          ],
+          "is_famous": false,
+          "is_irregular": false,
+          "source": null
+        },
+        {
+          "id": "p_040",
+          "cluster_id": "place_in_on_at",
+          "sentence": "She noticed a crack ___ the ceiling above the bed.",
+          "correct": "in",
+          "distractors": [
+            "on",
+            "at",
+            "through"
+          ],
+          "rule_id": "rule_in_enclosed_space",
+          "tags": [
+            "difficulty_2"
+          ],
+          "is_famous": false,
+          "is_irregular": false,
+          "source": null
+        },
+        {
+          "id": "p_041",
+          "cluster_id": "place_in_on_at",
+          "sentence": "He was standing ___ the window, looking out at the street.",
+          "correct": "at",
+          "distractors": [
+            "in",
+            "on",
+            "by"
+          ],
+          "rule_id": "rule_at_specific_point",
+          "tags": [
+            "difficulty_2"
+          ],
+          "is_famous": false,
+          "is_irregular": false,
+          "source": null
+        },
+        {
+          "id": "p_042",
+          "cluster_id": "place_in_on_at",
+          "sentence": "She spent the summer ___ her grandmother's house in the countryside.",
+          "correct": "at",
+          "distractors": [
+            "in",
+            "on",
+            "to"
+          ],
+          "rule_id": "rule_at_specific_point",
+          "tags": [
+            "difficulty_2"
+          ],
+          "is_famous": false,
+          "is_irregular": false,
+          "source": null
+        },
+        {
+          "id": "p_043",
+          "cluster_id": "place_in_on_at",
+          "sentence": "They were ___ the plane for over ten hours.",
+          "correct": "on",
+          "distractors": [
+            "in",
+            "at",
+            "during"
+          ],
+          "rule_id": "rule_on_transport",
+          "tags": [
+            "difficulty_2"
+          ],
+          "is_famous": false,
+          "is_irregular": false,
+          "source": null
+        },
+        {
+          "id": "p_044",
+          "cluster_id": "place_in_on_at",
+          "sentence": "I found a coin ___ the pavement near the market.",
+          "correct": "on",
+          "distractors": [
+            "in",
+            "at",
+            "from"
+          ],
+          "rule_id": "rule_on_surface",
+          "tags": [
+            "difficulty_1"
+          ],
+          "is_famous": false,
+          "is_irregular": false,
+          "source": null
+        },
+        {
+          "id": "p_045",
+          "cluster_id": "place_in_on_at",
+          "sentence": "He is currently ___ a conference abroad.",
+          "correct": "at",
+          "distractors": [
+            "in",
+            "on",
+            "for"
+          ],
+          "rule_id": "rule_at_event",
+          "tags": [
+            "difficulty_2"
+          ],
+          "is_famous": false,
+          "is_irregular": false,
+          "source": null
+        },
+        {
+          "id": "p_046",
+          "cluster_id": "place_in_on_at",
+          "sentence": "She put the flowers ___ a vase on the windowsill.",
+          "correct": "in",
+          "distractors": [
+            "on",
+            "at",
+            "into"
+          ],
+          "rule_id": "rule_in_enclosed_space",
+          "tags": [
+            "difficulty_1"
+          ],
+          "is_famous": false,
+          "is_irregular": false,
+          "source": null
+        },
+        {
+          "id": "p_047",
+          "cluster_id": "place_in_on_at",
+          "sentence": "They got stuck ___ the lift for nearly an hour.",
+          "correct": "in",
+          "distractors": [
+            "on",
+            "at",
+            "inside"
+          ],
+          "rule_id": "rule_in_enclosed_space",
+          "tags": [
+            "difficulty_2"
+          ],
+          "is_famous": false,
+          "is_irregular": false,
+          "source": null
+        },
+        {
+          "id": "p_048",
+          "cluster_id": "place_in_on_at",
+          "sentence": "She sat ___ the front of the car because she gets carsick.",
+          "correct": "in",
+          "distractors": [
+            "on",
+            "at",
+            "to"
+          ],
+          "rule_id": "rule_in_enclosed_space",
+          "tags": [
+            "difficulty_2"
+          ],
+          "is_famous": false,
+          "is_irregular": false,
+          "source": null
+        },
+        {
+          "id": "p_049",
+          "cluster_id": "place_in_on_at",
+          "sentence": "He was leaning ___ the railing at the top of the stairs.",
+          "correct": "on",
+          "distractors": [
+            "in",
+            "at",
+            "against"
+          ],
+          "rule_id": "rule_on_surface",
+          "tags": [
+            "difficulty_2"
+          ],
+          "is_famous": false,
+          "is_irregular": false,
+          "source": null
+        },
+        {
+          "id": "p_050",
+          "cluster_id": "place_in_on_at",
+          "sentence": "The keys are ___ the hook by the front door.",
+          "correct": "on",
+          "distractors": [
+            "in",
+            "at",
+            "near"
+          ],
+          "rule_id": "rule_on_surface",
+          "tags": [
+            "difficulty_1"
+          ],
+          "is_famous": false,
+          "is_irregular": false,
+          "source": null
+        },
+        {
+          "id": "p_051",
+          "cluster_id": "place_in_on_at",
+          "sentence": "She was ___ the dentist when I tried to call her.",
+          "correct": "at",
+          "distractors": [
+            "in",
+            "on",
+            "to"
+          ],
+          "rule_id": "rule_at_specific_point",
+          "tags": [
+            "difficulty_2"
+          ],
+          "is_famous": false,
+          "is_irregular": false,
+          "source": null
+        },
+        {
+          "id": "p_052",
+          "cluster_id": "place_in_on_at",
+          "sentence": "He lives ___ a farm just outside the village.",
+          "correct": "on",
+          "distractors": [
+            "in",
+            "at",
+            "by"
+          ],
+          "rule_id": "rule_on_surface",
+          "tags": [
+            "difficulty_3"
+          ],
+          "is_famous": false,
+          "is_irregular": false,
+          "source": null
+        },
+        {
+          "id": "p_053",
+          "cluster_id": "place_in_on_at",
+          "sentence": "The nearest supermarket is ___ the end of the road.",
+          "correct": "at",
+          "distractors": [
+            "in",
+            "on",
+            "by"
+          ],
+          "rule_id": "rule_at_specific_point",
+          "tags": [
+            "difficulty_2"
+          ],
+          "is_famous": false,
+          "is_irregular": false,
+          "source": null
+        },
+        {
+          "id": "p_054",
+          "cluster_id": "place_in_on_at",
+          "sentence": "She noticed her name ___ the screen.",
+          "correct": "on",
+          "distractors": [
+            "in",
+            "at",
+            "from"
+          ],
+          "rule_id": "rule_on_surface",
+          "tags": [
+            "difficulty_1"
+          ],
+          "is_famous": false,
+          "is_irregular": false,
+          "source": null
+        },
+        {
+          "id": "p_055",
+          "cluster_id": "place_in_on_at",
+          "sentence": "He was ___ the top of his class at medical school.",
+          "correct": "at",
+          "distractors": [
+            "in",
+            "on",
+            "from"
+          ],
+          "rule_id": "rule_at_specific_point",
+          "tags": [
+            "difficulty_3"
+          ],
+          "is_famous": false,
+          "is_irregular": false,
+          "source": null
+        },
+        {
+          "id": "p_056",
+          "cluster_id": "place_in_on_at",
+          "sentence": "There was a small cafe ___ the ground floor of the hotel.",
+          "correct": "on",
+          "distractors": [
+            "in",
+            "at",
+            "by"
+          ],
+          "rule_id": "rule_on_surface",
+          "tags": [
+            "difficulty_2"
+          ],
+          "is_famous": false,
+          "is_irregular": false,
+          "source": null
+        },
+        {
+          "id": "p_057",
+          "cluster_id": "place_in_on_at",
+          "sentence": "She was born ___ a hospital in Geneva.",
+          "correct": "in",
+          "distractors": [
+            "on",
+            "at",
+            "from"
+          ],
+          "rule_id": "rule_in_enclosed_space",
+          "tags": [
+            "difficulty_2"
+          ],
+          "is_famous": false,
+          "is_irregular": false,
+          "source": null
+        },
+        {
+          "id": "p_058",
+          "cluster_id": "place_in_on_at",
+          "sentence": "The hotel is ___ the corner of Fifth Avenue.",
+          "correct": "on",
+          "distractors": [
+            "in",
+            "at",
+            "by"
+          ],
+          "rule_id": "rule_on_surface",
+          "tags": [
+            "difficulty_3"
+          ],
+          "is_famous": false,
+          "is_irregular": false,
+          "source": null
+        },
+        {
+          "id": "p_059",
+          "cluster_id": "place_in_on_at",
+          "sentence": "There's a beautiful painting ___ the wall of the dining room.",
+          "correct": "on",
+          "distractors": [
+            "in",
+            "at",
+            "above"
+          ],
+          "rule_id": "rule_on_surface",
+          "tags": [
+            "difficulty_1"
+          ],
+          "is_famous": false,
+          "is_irregular": false,
+          "source": null
+        },
+        {
+          "id": "p_060",
+          "cluster_id": "place_in_on_at",
+          "sentence": "She spotted him ___ the far side of the room.",
+          "correct": "on",
+          "distractors": [
+            "in",
+            "at",
+            "to"
+          ],
+          "rule_id": "rule_on_surface",
+          "tags": [
+            "difficulty_2"
+          ],
+          "is_famous": false,
+          "is_irregular": false,
+          "source": null
+        }
+      ]
+    },
+    {
+      "id": "time_in_on_at",
+      "title": "IN / ON / AT — Time",
+      "subtitle": "When does it happen?",
+      "prepositions": [
+        "in",
+        "on",
+        "at"
+      ],
+      "intro_rules": [
+        "rule_in_long_period",
+        "rule_on_day",
+        "rule_at_time"
+      ],
+      "contrast_note": "IN = long periods. ON = days and dates. AT = clock times and fixed moments.",
+      "cards": [
+        {
+          "id": "t_001",
+          "cluster_id": "time_in_on_at",
+          "sentence": "The meeting starts ___ 9 o'clock sharp.",
+          "correct": "at",
+          "distractors": [
+            "in",
+            "on",
+            "by"
+          ],
+          "rule_id": "rule_at_time",
+          "tags": [
+            "difficulty_1"
+          ],
+          "is_famous": false,
+          "is_irregular": false,
+          "source": null
+        },
+        {
+          "id": "t_002",
+          "cluster_id": "time_in_on_at",
+          "sentence": "She was born ___ a cold December morning.",
+          "correct": "on",
+          "distractors": [
+            "in",
+            "at",
+            "during"
+          ],
+          "rule_id": "rule_on_day",
+          "tags": [
+            "difficulty_2"
+          ],
+          "is_famous": false,
+          "is_irregular": false,
+          "source": null
+        },
+        {
+          "id": "t_003",
+          "cluster_id": "time_in_on_at",
+          "sentence": "We usually go skiing ___ winter.",
+          "correct": "in",
+          "distractors": [
+            "on",
+            "at",
+            "during"
+          ],
+          "rule_id": "rule_in_long_period",
+          "tags": [
+            "difficulty_1"
+          ],
+          "is_famous": false,
+          "is_irregular": false,
+          "source": null
+        },
+        {
+          "id": "t_004",
+          "cluster_id": "time_in_on_at",
+          "sentence": "The store opens ___ 8 in the morning.",
+          "correct": "at",
+          "distractors": [
+            "in",
+            "on",
+            "from"
+          ],
+          "rule_id": "rule_at_time",
+          "tags": [
+            "difficulty_1"
+          ],
+          "is_famous": false,
+          "is_irregular": false,
+          "source": null
+        },
+        {
+          "id": "t_005",
+          "cluster_id": "time_in_on_at",
+          "sentence": "He started his new job ___ Monday.",
+          "correct": "on",
+          "distractors": [
+            "in",
+            "at",
+            "from"
+          ],
+          "rule_id": "rule_on_day",
+          "tags": [
+            "difficulty_1"
+          ],
+          "is_famous": false,
+          "is_irregular": false,
+          "source": null
+        },
+        {
+          "id": "t_006",
+          "cluster_id": "time_in_on_at",
+          "sentence": "They got married ___ June 1998.",
+          "correct": "in",
+          "distractors": [
+            "on",
+            "at",
+            "during"
+          ],
+          "rule_id": "rule_in_long_period",
+          "tags": [
+            "difficulty_1"
+          ],
+          "is_famous": false,
+          "is_irregular": false,
+          "source": null
+        },
+        {
+          "id": "t_007",
+          "cluster_id": "time_in_on_at",
+          "sentence": "I always feel tired ___ the afternoon.",
+          "correct": "in",
+          "distractors": [
+            "on",
+            "at",
+            "during"
+          ],
+          "rule_id": "rule_in_long_period",
+          "tags": [
+            "difficulty_1"
+          ],
+          "is_famous": false,
+          "is_irregular": false,
+          "source": null
+        },
+        {
+          "id": "t_008",
+          "cluster_id": "time_in_on_at",
+          "sentence": "The ceremony will be held ___ the 15th of August.",
+          "correct": "on",
+          "distractors": [
+            "in",
+            "at",
+            "by"
+          ],
+          "rule_id": "rule_on_day",
+          "tags": [
+            "difficulty_1"
+          ],
+          "is_famous": false,
+          "is_irregular": false,
+          "source": null
+        },
+        {
+          "id": "t_009",
+          "cluster_id": "time_in_on_at",
+          "sentence": "Everything goes quiet ___ midnight.",
+          "correct": "at",
+          "distractors": [
+            "in",
+            "on",
+            "by"
+          ],
+          "rule_id": "rule_at_time",
+          "tags": [
+            "difficulty_1"
+          ],
+          "is_famous": false,
+          "is_irregular": false,
+          "source": null
+        },
+        {
+          "id": "t_010",
+          "cluster_id": "time_in_on_at",
+          "sentence": "She called me ___ my birthday.",
+          "correct": "on",
+          "distractors": [
+            "in",
+            "at",
+            "for"
+          ],
+          "rule_id": "rule_on_day",
+          "tags": [
+            "difficulty_2"
+          ],
+          "is_famous": false,
+          "is_irregular": false,
+          "source": null
+        },
+        {
+          "id": "t_011",
+          "cluster_id": "time_in_on_at",
+          "sentence": "She usually calls her parents ___ Sunday evenings.",
+          "correct": "on",
+          "distractors": [
+            "in",
+            "at",
+            "during"
+          ],
+          "rule_id": "rule_on_day",
+          "tags": [
+            "difficulty_1"
+          ],
+          "is_famous": false,
+          "is_irregular": false,
+          "source": null
+        },
+        {
+          "id": "t_012",
+          "cluster_id": "time_in_on_at",
+          "sentence": "The results will be announced ___ the end of the week.",
+          "correct": "at",
+          "distractors": [
+            "in",
+            "on",
+            "by"
+          ],
+          "rule_id": "rule_at_time",
+          "tags": [
+            "difficulty_2"
+          ],
+          "is_famous": false,
+          "is_irregular": false,
+          "source": null
+        },
+        {
+          "id": "t_013",
+          "cluster_id": "time_in_on_at",
+          "sentence": "He wrote his first novel ___ his twenties.",
+          "correct": "in",
+          "distractors": [
+            "on",
+            "at",
+            "during"
+          ],
+          "rule_id": "rule_in_long_period",
+          "tags": [
+            "difficulty_2"
+          ],
+          "is_famous": false,
+          "is_irregular": false,
+          "source": null
+        },
+        {
+          "id": "t_014",
+          "cluster_id": "time_in_on_at",
+          "sentence": "She always has breakfast ___ seven o'clock.",
+          "correct": "at",
+          "distractors": [
+            "in",
+            "on",
+            "by"
+          ],
+          "rule_id": "rule_at_time",
+          "tags": [
+            "difficulty_1"
+          ],
+          "is_famous": false,
+          "is_irregular": false,
+          "source": null
+        },
+        {
+          "id": "t_015",
+          "cluster_id": "time_in_on_at",
+          "sentence": "We left the city ___ a rainy Tuesday afternoon.",
+          "correct": "on",
+          "distractors": [
+            "in",
+            "at",
+            "during"
+          ],
+          "rule_id": "rule_on_day",
+          "tags": [
+            "difficulty_2"
+          ],
+          "is_famous": false,
+          "is_irregular": false,
+          "source": null
+        },
+        {
+          "id": "t_016",
+          "cluster_id": "time_in_on_at",
+          "sentence": "There were no computers ___ the nineteenth century.",
+          "correct": "in",
+          "distractors": [
+            "on",
+            "at",
+            "during"
+          ],
+          "rule_id": "rule_in_long_period",
+          "tags": [
+            "difficulty_2"
+          ],
+          "is_famous": false,
+          "is_irregular": false,
+          "source": null
+        },
+        {
+          "id": "t_017",
+          "cluster_id": "time_in_on_at",
+          "sentence": "The library opens ___ 9 am and closes at 8 pm.",
+          "correct": "at",
+          "distractors": [
+            "in",
+            "on",
+            "from"
+          ],
+          "rule_id": "rule_at_time",
+          "tags": [
+            "difficulty_1"
+          ],
+          "is_famous": false,
+          "is_irregular": false,
+          "source": null
+        },
+        {
+          "id": "t_018",
+          "cluster_id": "time_in_on_at",
+          "sentence": "They celebrated ___ New Year's Eve with a big dinner.",
+          "correct": "on",
+          "distractors": [
+            "in",
+            "at",
+            "during"
+          ],
+          "rule_id": "rule_on_day",
+          "tags": [
+            "difficulty_2"
+          ],
+          "is_famous": false,
+          "is_irregular": false,
+          "source": null
+        },
+        {
+          "id": "t_019",
+          "cluster_id": "time_in_on_at",
+          "sentence": "Flowers bloom ___ spring in this part of the country.",
+          "correct": "in",
+          "distractors": [
+            "on",
+            "at",
+            "during"
+          ],
+          "rule_id": "rule_in_long_period",
+          "tags": [
+            "difficulty_1"
+          ],
+          "is_famous": false,
+          "is_irregular": false,
+          "source": null
+        },
+        {
+          "id": "t_020",
+          "cluster_id": "time_in_on_at",
+          "sentence": "She arrived ___ exactly half past three.",
+          "correct": "at",
+          "distractors": [
+            "in",
+            "on",
+            "by"
+          ],
+          "rule_id": "rule_at_time",
+          "tags": [
+            "difficulty_1"
+          ],
+          "is_famous": false,
+          "is_irregular": false,
+          "source": null
+        },
+        {
+          "id": "t_021",
+          "cluster_id": "time_in_on_at",
+          "sentence": "They announced the winner ___ Christmas Day.",
+          "correct": "on",
+          "distractors": [
+            "in",
+            "at",
+            "during"
+          ],
+          "rule_id": "rule_on_day",
+          "tags": [
+            "difficulty_1"
+          ],
+          "is_famous": false,
+          "is_irregular": false,
+          "source": null
+        },
+        {
+          "id": "t_022",
+          "cluster_id": "time_in_on_at",
+          "sentence": "He was born ___ 1985, just before the internet became widespread.",
+          "correct": "in",
+          "distractors": [
+            "on",
+            "at",
+            "during"
+          ],
+          "rule_id": "rule_in_long_period",
+          "tags": [
+            "difficulty_1"
+          ],
+          "is_famous": false,
+          "is_irregular": false,
+          "source": null
+        },
+        {
+          "id": "t_023",
+          "cluster_id": "time_in_on_at",
+          "sentence": "The train departs ___ quarter past six.",
+          "correct": "at",
+          "distractors": [
+            "in",
+            "on",
+            "by"
+          ],
+          "rule_id": "rule_at_time",
+          "tags": [
+            "difficulty_1"
+          ],
+          "is_famous": false,
+          "is_irregular": false,
+          "source": null
+        },
+        {
+          "id": "t_024",
+          "cluster_id": "time_in_on_at",
+          "sentence": "She visits her parents ___ Easter every year.",
+          "correct": "at",
+          "distractors": [
+            "in",
+            "on",
+            "during"
+          ],
+          "rule_id": "rule_at_time",
+          "tags": [
+            "difficulty_3"
+          ],
+          "is_famous": false,
+          "is_irregular": false,
+          "source": null
+        },
+        {
+          "id": "t_025",
+          "cluster_id": "time_in_on_at",
+          "sentence": "He doesn't like to eat too much ___ the evening.",
+          "correct": "in",
+          "distractors": [
+            "on",
+            "at",
+            "during"
+          ],
+          "rule_id": "rule_in_long_period",
+          "tags": [
+            "difficulty_1"
+          ],
+          "is_famous": false,
+          "is_irregular": false,
+          "source": null
+        },
+        {
+          "id": "t_026",
+          "cluster_id": "time_in_on_at",
+          "sentence": "The shop closes early ___ Saturdays.",
+          "correct": "on",
+          "distractors": [
+            "in",
+            "at",
+            "during"
+          ],
+          "rule_id": "rule_on_day",
+          "tags": [
+            "difficulty_1"
+          ],
+          "is_famous": false,
+          "is_irregular": false,
+          "source": null
+        },
+        {
+          "id": "t_027",
+          "cluster_id": "time_in_on_at",
+          "sentence": "She learnt to drive ___ 2019.",
+          "correct": "in",
+          "distractors": [
+            "on",
+            "at",
+            "during"
+          ],
+          "rule_id": "rule_in_long_period",
+          "tags": [
+            "difficulty_1"
+          ],
+          "is_famous": false,
+          "is_irregular": false,
+          "source": null
+        },
+        {
+          "id": "t_028",
+          "cluster_id": "time_in_on_at",
+          "sentence": "They usually have a team lunch ___ Fridays.",
+          "correct": "on",
+          "distractors": [
+            "in",
+            "at",
+            "by"
+          ],
+          "rule_id": "rule_on_day",
+          "tags": [
+            "difficulty_1"
+          ],
+          "is_famous": false,
+          "is_irregular": false,
+          "source": null
+        },
+        {
+          "id": "t_029",
+          "cluster_id": "time_in_on_at",
+          "sentence": "I prefer working ___ the morning when everything is quiet.",
+          "correct": "in",
+          "distractors": [
+            "on",
+            "at",
+            "during"
+          ],
+          "rule_id": "rule_in_long_period",
+          "tags": [
+            "difficulty_1"
+          ],
+          "is_famous": false,
+          "is_irregular": false,
+          "source": null
+        },
+        {
+          "id": "t_030",
+          "cluster_id": "time_in_on_at",
+          "sentence": "She rang the doorbell ___ exactly midnight.",
+          "correct": "at",
+          "distractors": [
+            "in",
+            "on",
+            "by"
+          ],
+          "rule_id": "rule_at_time",
+          "tags": [
+            "difficulty_1"
+          ],
+          "is_famous": false,
+          "is_irregular": false,
+          "source": null
+        },
+        {
+          "id": "t_031",
+          "cluster_id": "time_in_on_at",
+          "sentence": "He was promoted ___ the first of September.",
+          "correct": "on",
+          "distractors": [
+            "in",
+            "at",
+            "by"
+          ],
+          "rule_id": "rule_on_day",
+          "tags": [
+            "difficulty_1"
+          ],
+          "is_famous": false,
+          "is_irregular": false,
+          "source": null
+        },
+        {
+          "id": "t_032",
+          "cluster_id": "time_in_on_at",
+          "sentence": "I'll call you back ___ lunchtime.",
+          "correct": "at",
+          "distractors": [
+            "in",
+            "on",
+            "during"
+          ],
+          "rule_id": "rule_at_time",
+          "tags": [
+            "difficulty_2"
+          ],
+          "is_famous": false,
+          "is_irregular": false,
+          "source": null
+        },
+        {
+          "id": "t_033",
+          "cluster_id": "time_in_on_at",
+          "sentence": "She always feels restless ___ autumn.",
+          "correct": "in",
+          "distractors": [
+            "on",
+            "at",
+            "during"
+          ],
+          "rule_id": "rule_in_long_period",
+          "tags": [
+            "difficulty_1"
+          ],
+          "is_famous": false,
+          "is_irregular": false,
+          "source": null
+        },
+        {
+          "id": "t_034",
+          "cluster_id": "time_in_on_at",
+          "sentence": "She always sleeps late ___ weekends.",
+          "correct": "on",
+          "distractors": [
+            "in",
+            "at",
+            "during"
+          ],
+          "rule_id": "rule_on_day",
+          "tags": [
+            "difficulty_1"
+          ],
+          "is_famous": false,
+          "is_irregular": false,
+          "source": null
+        },
+        {
+          "id": "t_035",
+          "cluster_id": "time_in_on_at",
+          "sentence": "The concert begins ___ 8 o'clock sharp.",
+          "correct": "at",
+          "distractors": [
+            "in",
+            "on",
+            "from"
+          ],
+          "rule_id": "rule_at_time",
+          "tags": [
+            "difficulty_1"
+          ],
+          "is_famous": false,
+          "is_irregular": false,
+          "source": null
+        },
+        {
+          "id": "t_036",
+          "cluster_id": "time_in_on_at",
+          "sentence": "A lot has changed ___ the past decade.",
+          "correct": "in",
+          "distractors": [
+            "on",
+            "at",
+            "during"
+          ],
+          "rule_id": "rule_in_long_period",
+          "tags": [
+            "difficulty_2"
+          ],
+          "is_famous": false,
+          "is_irregular": false,
+          "source": null
+        },
+        {
+          "id": "t_037",
+          "cluster_id": "time_in_on_at",
+          "sentence": "He proposed to her ___ Valentine's Day.",
+          "correct": "on",
+          "distractors": [
+            "in",
+            "at",
+            "during"
+          ],
+          "rule_id": "rule_on_day",
+          "tags": [
+            "difficulty_1"
+          ],
+          "is_famous": false,
+          "is_irregular": false,
+          "source": null
+        },
+        {
+          "id": "t_038",
+          "cluster_id": "time_in_on_at",
+          "sentence": "Strange things seem to happen ___ night in this town.",
+          "correct": "at",
+          "distractors": [
+            "in",
+            "on",
+            "during"
+          ],
+          "rule_id": "rule_at_time",
+          "tags": [
+            "difficulty_2"
+          ],
+          "is_famous": false,
+          "is_irregular": false,
+          "source": null
+        },
+        {
+          "id": "t_039",
+          "cluster_id": "time_in_on_at",
+          "sentence": "She finished her PhD ___ her early thirties.",
+          "correct": "in",
+          "distractors": [
+            "on",
+            "at",
+            "during"
+          ],
+          "rule_id": "rule_in_long_period",
+          "tags": [
+            "difficulty_2"
+          ],
+          "is_famous": false,
+          "is_irregular": false,
+          "source": null
+        },
+        {
+          "id": "t_040",
+          "cluster_id": "time_in_on_at",
+          "sentence": "He discovered his passion for cooking ___ his first year at university.",
+          "correct": "in",
+          "distractors": [
+            "on",
+            "at",
+            "during"
+          ],
+          "rule_id": "rule_in_long_period",
+          "tags": [
+            "difficulty_2"
+          ],
+          "is_famous": false,
+          "is_irregular": false,
+          "source": null
+        },
+        {
+          "id": "t_041",
+          "cluster_id": "time_in_on_at",
+          "sentence": "The fire alarm went off ___ the early hours of the morning.",
+          "correct": "in",
+          "distractors": [
+            "on",
+            "at",
+            "during"
+          ],
+          "rule_id": "rule_in_long_period",
+          "tags": [
+            "difficulty_2"
+          ],
+          "is_famous": false,
+          "is_irregular": false,
+          "source": null
+        },
+        {
+          "id": "t_042",
+          "cluster_id": "time_in_on_at",
+          "sentence": "They signed the contract ___ 14 March.",
+          "correct": "on",
+          "distractors": [
+            "in",
+            "at",
+            "by"
+          ],
+          "rule_id": "rule_on_day",
+          "tags": [
+            "difficulty_1"
+          ],
+          "is_famous": false,
+          "is_irregular": false,
+          "source": null
+        },
+        {
+          "id": "t_043",
+          "cluster_id": "time_in_on_at",
+          "sentence": "She usually studies ___ night, when the house is quiet.",
+          "correct": "at",
+          "distractors": [
+            "in",
+            "on",
+            "during"
+          ],
+          "rule_id": "rule_at_time",
+          "tags": [
+            "difficulty_2"
+          ],
+          "is_famous": false,
+          "is_irregular": false,
+          "source": null
+        },
+        {
+          "id": "t_044",
+          "cluster_id": "time_in_on_at",
+          "sentence": "The stadium was built ___ the 1960s.",
+          "correct": "in",
+          "distractors": [
+            "on",
+            "at",
+            "during"
+          ],
+          "rule_id": "rule_in_long_period",
+          "tags": [
+            "difficulty_1"
+          ],
+          "is_famous": false,
+          "is_irregular": false,
+          "source": null
+        },
+        {
+          "id": "t_045",
+          "cluster_id": "time_in_on_at",
+          "sentence": "She checks her email first thing ___ the morning.",
+          "correct": "in",
+          "distractors": [
+            "on",
+            "at",
+            "during"
+          ],
+          "rule_id": "rule_in_long_period",
+          "tags": [
+            "difficulty_1"
+          ],
+          "is_famous": false,
+          "is_irregular": false,
+          "source": null
+        },
+        {
+          "id": "t_046",
+          "cluster_id": "time_in_on_at",
+          "sentence": "She was offered the job ___ the very last day of the month.",
+          "correct": "on",
+          "distractors": [
+            "in",
+            "at",
+            "by"
+          ],
+          "rule_id": "rule_on_day",
+          "tags": [
+            "difficulty_2"
+          ],
+          "is_famous": false,
+          "is_irregular": false,
+          "source": null
+        },
+        {
+          "id": "t_047",
+          "cluster_id": "time_in_on_at",
+          "sentence": "They moved to the new house ___ August.",
+          "correct": "in",
+          "distractors": [
+            "on",
+            "at",
+            "during"
+          ],
+          "rule_id": "rule_in_long_period",
+          "tags": [
+            "difficulty_1"
+          ],
+          "is_famous": false,
+          "is_irregular": false,
+          "source": null
+        },
+        {
+          "id": "t_048",
+          "cluster_id": "time_in_on_at",
+          "sentence": "He arrived home ___ dusk, just as the lights came on.",
+          "correct": "at",
+          "distractors": [
+            "in",
+            "on",
+            "by"
+          ],
+          "rule_id": "rule_at_time",
+          "tags": [
+            "difficulty_2"
+          ],
+          "is_famous": false,
+          "is_irregular": false,
+          "source": null
+        },
+        {
+          "id": "t_049",
+          "cluster_id": "time_in_on_at",
+          "sentence": "The market takes place ___ the first Sunday of each month.",
+          "correct": "on",
+          "distractors": [
+            "in",
+            "at",
+            "by"
+          ],
+          "rule_id": "rule_on_day",
+          "tags": [
+            "difficulty_2"
+          ],
+          "is_famous": false,
+          "is_irregular": false,
+          "source": null
+        },
+        {
+          "id": "t_050",
+          "cluster_id": "time_in_on_at",
+          "sentence": "She hopes to retire ___ her mid-sixties.",
+          "correct": "in",
+          "distractors": [
+            "on",
+            "at",
+            "by"
+          ],
+          "rule_id": "rule_in_long_period",
+          "tags": [
+            "difficulty_2"
+          ],
+          "is_famous": false,
+          "is_irregular": false,
+          "source": null
+        }
+      ]
+    },
+    {
+      "id": "duration_by_until_for",
+      "title": "BY / UNTIL / FOR — Time Spans",
+      "subtitle": "How long, and when does it end?",
+      "prepositions": [
+        "by",
+        "until",
+        "for"
+      ],
+      "intro_rules": [
+        "rule_by_deadline",
+        "rule_until_continuous",
+        "rule_for_duration"
+      ],
+      "contrast_note": "BY = deadline (finished no later than). UNTIL = continuous up to a point. FOR = total duration.",
+      "cards": [
+        {
+          "id": "d_001",
+          "cluster_id": "duration_by_until_for",
+          "sentence": "Please submit your report ___ Friday.",
+          "correct": "by",
+          "distractors": [
+            "until",
+            "for",
+            "on"
+          ],
+          "rule_id": "rule_by_deadline",
+          "tags": [
+            "difficulty_1"
+          ],
+          "is_famous": false,
+          "is_irregular": false,
+          "source": null
+        },
+        {
+          "id": "d_002",
+          "cluster_id": "duration_by_until_for",
+          "sentence": "She studied ___ three hours without a break.",
+          "correct": "for",
+          "distractors": [
+            "by",
+            "until",
+            "during"
+          ],
+          "rule_id": "rule_for_duration",
+          "tags": [
+            "difficulty_1"
+          ],
+          "is_famous": false,
+          "is_irregular": false,
+          "source": null
+        },
+        {
+          "id": "d_003",
+          "cluster_id": "duration_by_until_for",
+          "sentence": "We waited at the station ___ the last train arrived.",
+          "correct": "until",
+          "distractors": [
+            "by",
+            "for",
+            "when"
+          ],
+          "rule_id": "rule_until_continuous",
+          "tags": [
+            "difficulty_1"
+          ],
+          "is_famous": false,
+          "is_irregular": false,
+          "source": null
+        },
+        {
+          "id": "d_004",
+          "cluster_id": "duration_by_until_for",
+          "sentence": "I need this done ___ noon at the latest.",
+          "correct": "by",
+          "distractors": [
+            "until",
+            "for",
+            "at"
+          ],
+          "rule_id": "rule_by_deadline",
+          "tags": [
+            "difficulty_1"
+          ],
+          "is_famous": false,
+          "is_irregular": false,
+          "source": null
+        },
+        {
+          "id": "d_005",
+          "cluster_id": "duration_by_until_for",
+          "sentence": "They have been friends ___ over twenty years.",
+          "correct": "for",
+          "distractors": [
+            "by",
+            "until",
+            "since"
+          ],
+          "rule_id": "rule_for_duration",
+          "tags": [
+            "difficulty_2"
+          ],
+          "is_famous": false,
+          "is_irregular": false,
+          "source": null
+        },
+        {
+          "id": "d_006",
+          "cluster_id": "duration_by_until_for",
+          "sentence": "He kept working ___ he couldn't keep his eyes open.",
+          "correct": "until",
+          "distractors": [
+            "by",
+            "for",
+            "while"
+          ],
+          "rule_id": "rule_until_continuous",
+          "tags": [
+            "difficulty_2"
+          ],
+          "is_famous": false,
+          "is_irregular": false,
+          "source": null
+        },
+        {
+          "id": "d_007",
+          "cluster_id": "duration_by_until_for",
+          "sentence": "Can you finish the painting ___ the end of the month?",
+          "correct": "by",
+          "distractors": [
+            "until",
+            "for",
+            "at"
+          ],
+          "rule_id": "rule_by_deadline",
+          "tags": [
+            "difficulty_2"
+          ],
+          "is_famous": false,
+          "is_irregular": false,
+          "source": null
+        },
+        {
+          "id": "d_008",
+          "cluster_id": "duration_by_until_for",
+          "sentence": "The museum stays open ___ 9 o'clock in the evening.",
+          "correct": "until",
+          "distractors": [
+            "by",
+            "for",
+            "at"
+          ],
+          "rule_id": "rule_until_continuous",
+          "tags": [
+            "difficulty_1"
+          ],
+          "is_famous": false,
+          "is_irregular": false,
+          "source": null
+        },
+        {
+          "id": "d_009",
+          "cluster_id": "duration_by_until_for",
+          "sentence": "The builders worked ___ six months to complete the extension.",
+          "correct": "for",
+          "distractors": [
+            "by",
+            "until",
+            "during"
+          ],
+          "rule_id": "rule_for_duration",
+          "tags": [
+            "difficulty_1"
+          ],
+          "is_famous": false,
+          "is_irregular": false,
+          "source": null
+        },
+        {
+          "id": "d_010",
+          "cluster_id": "duration_by_until_for",
+          "sentence": "You must return the library book ___ next Thursday.",
+          "correct": "by",
+          "distractors": [
+            "until",
+            "for",
+            "on"
+          ],
+          "rule_id": "rule_by_deadline",
+          "tags": [
+            "difficulty_1"
+          ],
+          "is_famous": false,
+          "is_irregular": false,
+          "source": null
+        },
+        {
+          "id": "d_011",
+          "cluster_id": "duration_by_until_for",
+          "sentence": "They danced ___ the early hours of the morning.",
+          "correct": "until",
+          "distractors": [
+            "by",
+            "for",
+            "through"
+          ],
+          "rule_id": "rule_until_continuous",
+          "tags": [
+            "difficulty_2"
+          ],
+          "is_famous": false,
+          "is_irregular": false,
+          "source": null
+        },
+        {
+          "id": "d_012",
+          "cluster_id": "duration_by_until_for",
+          "sentence": "She has been living abroad ___ the past five years.",
+          "correct": "for",
+          "distractors": [
+            "by",
+            "until",
+            "during"
+          ],
+          "rule_id": "rule_for_duration",
+          "tags": [
+            "difficulty_2"
+          ],
+          "is_famous": false,
+          "is_irregular": false,
+          "source": null
+        },
+        {
+          "id": "d_013",
+          "cluster_id": "duration_by_until_for",
+          "sentence": "He needs to call the client ___ 3 pm.",
+          "correct": "by",
+          "distractors": [
+            "until",
+            "for",
+            "at"
+          ],
+          "rule_id": "rule_by_deadline",
+          "tags": [
+            "difficulty_1"
+          ],
+          "is_famous": false,
+          "is_irregular": false,
+          "source": null
+        },
+        {
+          "id": "d_014",
+          "cluster_id": "duration_by_until_for",
+          "sentence": "She kept all of his letters ___ the day she died.",
+          "correct": "until",
+          "distractors": [
+            "by",
+            "for",
+            "to"
+          ],
+          "rule_id": "rule_until_continuous",
+          "tags": [
+            "difficulty_2"
+          ],
+          "is_famous": false,
+          "is_irregular": false,
+          "source": null
+        },
+        {
+          "id": "d_015",
+          "cluster_id": "duration_by_until_for",
+          "sentence": "They were stuck in traffic ___ two hours.",
+          "correct": "for",
+          "distractors": [
+            "by",
+            "until",
+            "during"
+          ],
+          "rule_id": "rule_for_duration",
+          "tags": [
+            "difficulty_1"
+          ],
+          "is_famous": false,
+          "is_irregular": false,
+          "source": null
+        },
+        {
+          "id": "d_016",
+          "cluster_id": "duration_by_until_for",
+          "sentence": "Can you wait ___ I get back?",
+          "correct": "until",
+          "distractors": [
+            "by",
+            "for",
+            "to"
+          ],
+          "rule_id": "rule_until_continuous",
+          "tags": [
+            "difficulty_1"
+          ],
+          "is_famous": false,
+          "is_irregular": false,
+          "source": null
+        },
+        {
+          "id": "d_017",
+          "cluster_id": "duration_by_until_for",
+          "sentence": "He saved up ___ months before he could buy the car.",
+          "correct": "for",
+          "distractors": [
+            "by",
+            "until",
+            "during"
+          ],
+          "rule_id": "rule_for_duration",
+          "tags": [
+            "difficulty_2"
+          ],
+          "is_famous": false,
+          "is_irregular": false,
+          "source": null
+        },
+        {
+          "id": "d_018",
+          "cluster_id": "duration_by_until_for",
+          "sentence": "The proposal must be submitted ___ end of business today.",
+          "correct": "by",
+          "distractors": [
+            "until",
+            "for",
+            "at"
+          ],
+          "rule_id": "rule_by_deadline",
+          "tags": [
+            "difficulty_2"
+          ],
+          "is_famous": false,
+          "is_irregular": false,
+          "source": null
+        },
+        {
+          "id": "d_019",
+          "cluster_id": "duration_by_until_for",
+          "sentence": "He stayed ___ everyone else had left the party.",
+          "correct": "until",
+          "distractors": [
+            "by",
+            "for",
+            "while"
+          ],
+          "rule_id": "rule_until_continuous",
+          "tags": [
+            "difficulty_2"
+          ],
+          "is_famous": false,
+          "is_irregular": false,
+          "source": null
+        },
+        {
+          "id": "d_020",
+          "cluster_id": "duration_by_until_for",
+          "sentence": "She has been working at the same company ___ thirty years.",
+          "correct": "for",
+          "distractors": [
+            "by",
+            "until",
+            "since"
+          ],
+          "rule_id": "rule_for_duration",
+          "tags": [
+            "difficulty_2"
+          ],
+          "is_famous": false,
+          "is_irregular": false,
+          "source": null
+        },
+        {
+          "id": "d_021",
+          "cluster_id": "duration_by_until_for",
+          "sentence": "We need to leave ___ midday to catch the ferry.",
+          "correct": "by",
+          "distractors": [
+            "until",
+            "for",
+            "at"
+          ],
+          "rule_id": "rule_by_deadline",
+          "tags": [
+            "difficulty_2"
+          ],
+          "is_famous": false,
+          "is_irregular": false,
+          "source": null
+        },
+        {
+          "id": "d_022",
+          "cluster_id": "duration_by_until_for",
+          "sentence": "The shop is open ___ 10 pm every day.",
+          "correct": "until",
+          "distractors": [
+            "by",
+            "for",
+            "to"
+          ],
+          "rule_id": "rule_until_continuous",
+          "tags": [
+            "difficulty_1"
+          ],
+          "is_famous": false,
+          "is_irregular": false,
+          "source": null
+        },
+        {
+          "id": "d_023",
+          "cluster_id": "duration_by_until_for",
+          "sentence": "She slept ___ fourteen hours after the surgery.",
+          "correct": "for",
+          "distractors": [
+            "by",
+            "until",
+            "during"
+          ],
+          "rule_id": "rule_for_duration",
+          "tags": [
+            "difficulty_1"
+          ],
+          "is_famous": false,
+          "is_irregular": false,
+          "source": null
+        },
+        {
+          "id": "d_024",
+          "cluster_id": "duration_by_until_for",
+          "sentence": "I'll have the report ready ___ the morning.",
+          "correct": "by",
+          "distractors": [
+            "until",
+            "for",
+            "in"
+          ],
+          "rule_id": "rule_by_deadline",
+          "tags": [
+            "difficulty_2"
+          ],
+          "is_famous": false,
+          "is_irregular": false,
+          "source": null
+        },
+        {
+          "id": "d_025",
+          "cluster_id": "duration_by_until_for",
+          "sentence": "He held onto the rope ___ his arms gave out.",
+          "correct": "until",
+          "distractors": [
+            "by",
+            "for",
+            "while"
+          ],
+          "rule_id": "rule_until_continuous",
+          "tags": [
+            "difficulty_2"
+          ],
+          "is_famous": false,
+          "is_irregular": false,
+          "source": null
+        },
+        {
+          "id": "d_026",
+          "cluster_id": "duration_by_until_for",
+          "sentence": "She worked overtime ___ weeks to finish the project.",
+          "correct": "for",
+          "distractors": [
+            "by",
+            "until",
+            "during"
+          ],
+          "rule_id": "rule_for_duration",
+          "tags": [
+            "difficulty_1"
+          ],
+          "is_famous": false,
+          "is_irregular": false,
+          "source": null
+        },
+        {
+          "id": "d_027",
+          "cluster_id": "duration_by_until_for",
+          "sentence": "Could you hold the line ___ she is available?",
+          "correct": "until",
+          "distractors": [
+            "by",
+            "for",
+            "while"
+          ],
+          "rule_id": "rule_until_continuous",
+          "tags": [
+            "difficulty_2"
+          ],
+          "is_famous": false,
+          "is_irregular": false,
+          "source": null
+        },
+        {
+          "id": "d_028",
+          "cluster_id": "duration_by_until_for",
+          "sentence": "The application deadline is ___ the 30th of June.",
+          "correct": "by",
+          "distractors": [
+            "until",
+            "for",
+            "on"
+          ],
+          "rule_id": "rule_by_deadline",
+          "tags": [
+            "difficulty_2"
+          ],
+          "is_famous": false,
+          "is_irregular": false,
+          "source": null
+        },
+        {
+          "id": "d_029",
+          "cluster_id": "duration_by_until_for",
+          "sentence": "They waited ___ the storm passed before setting off.",
+          "correct": "until",
+          "distractors": [
+            "by",
+            "for",
+            "while"
+          ],
+          "rule_id": "rule_until_continuous",
+          "tags": [
+            "difficulty_1"
+          ],
+          "is_famous": false,
+          "is_irregular": false,
+          "source": null
+        },
+        {
+          "id": "d_030",
+          "cluster_id": "duration_by_until_for",
+          "sentence": "She's been on the phone ___ an hour.",
+          "correct": "for",
+          "distractors": [
+            "by",
+            "until",
+            "since"
+          ],
+          "rule_id": "rule_for_duration",
+          "tags": [
+            "difficulty_1"
+          ],
+          "is_famous": false,
+          "is_irregular": false,
+          "source": null
+        },
+        {
+          "id": "d_031",
+          "cluster_id": "duration_by_until_for",
+          "sentence": "All invoices must be paid ___ the end of the quarter.",
+          "correct": "by",
+          "distractors": [
+            "until",
+            "for",
+            "at"
+          ],
+          "rule_id": "rule_by_deadline",
+          "tags": [
+            "difficulty_2"
+          ],
+          "is_famous": false,
+          "is_irregular": false,
+          "source": null
+        },
+        {
+          "id": "d_032",
+          "cluster_id": "duration_by_until_for",
+          "sentence": "He practised guitar every day ___ he could play the full song.",
+          "correct": "until",
+          "distractors": [
+            "by",
+            "for",
+            "while"
+          ],
+          "rule_id": "rule_until_continuous",
+          "tags": [
+            "difficulty_2"
+          ],
+          "is_famous": false,
+          "is_irregular": false,
+          "source": null
+        },
+        {
+          "id": "d_033",
+          "cluster_id": "duration_by_until_for",
+          "sentence": "I'll keep the table reserved ___ 8 pm, but after that it's gone.",
+          "correct": "until",
+          "distractors": [
+            "by",
+            "for",
+            "to"
+          ],
+          "rule_id": "rule_until_continuous",
+          "tags": [
+            "difficulty_3"
+          ],
+          "is_famous": false,
+          "is_irregular": false,
+          "source": null
+        },
+        {
+          "id": "d_034",
+          "cluster_id": "duration_by_until_for",
+          "sentence": "The food bank has been running ___ over a decade.",
+          "correct": "for",
+          "distractors": [
+            "by",
+            "until",
+            "during"
+          ],
+          "rule_id": "rule_for_duration",
+          "tags": [
+            "difficulty_2"
+          ],
+          "is_famous": false,
+          "is_irregular": false,
+          "source": null
+        },
+        {
+          "id": "d_035",
+          "cluster_id": "duration_by_until_for",
+          "sentence": "Make sure the contract is signed ___ close of play Friday.",
+          "correct": "by",
+          "distractors": [
+            "until",
+            "for",
+            "at"
+          ],
+          "rule_id": "rule_by_deadline",
+          "tags": [
+            "difficulty_3"
+          ],
+          "is_famous": false,
+          "is_irregular": false,
+          "source": null
+        },
+        {
+          "id": "d_036",
+          "cluster_id": "duration_by_until_for",
+          "sentence": "She played the piano ___ she forgot all about the time.",
+          "correct": "until",
+          "distractors": [
+            "by",
+            "for",
+            "while"
+          ],
+          "rule_id": "rule_until_continuous",
+          "tags": [
+            "difficulty_2"
+          ],
+          "is_famous": false,
+          "is_irregular": false,
+          "source": null
+        },
+        {
+          "id": "d_037",
+          "cluster_id": "duration_by_until_for",
+          "sentence": "He waited ___ the very last moment to buy his train ticket.",
+          "correct": "until",
+          "distractors": [
+            "by",
+            "for",
+            "to"
+          ],
+          "rule_id": "rule_until_continuous",
+          "tags": [
+            "difficulty_3"
+          ],
+          "is_famous": false,
+          "is_irregular": false,
+          "source": null
+        },
+        {
+          "id": "d_038",
+          "cluster_id": "duration_by_until_for",
+          "sentence": "He had been on the waiting list ___ almost two years.",
+          "correct": "for",
+          "distractors": [
+            "by",
+            "until",
+            "during"
+          ],
+          "rule_id": "rule_for_duration",
+          "tags": [
+            "difficulty_2"
+          ],
+          "is_famous": false,
+          "is_irregular": false,
+          "source": null
+        },
+        {
+          "id": "d_039",
+          "cluster_id": "duration_by_until_for",
+          "sentence": "The band played non-stop ___ midnight.",
+          "correct": "until",
+          "distractors": [
+            "by",
+            "for",
+            "to"
+          ],
+          "rule_id": "rule_until_continuous",
+          "tags": [
+            "difficulty_2"
+          ],
+          "is_famous": false,
+          "is_irregular": false,
+          "source": null
+        },
+        {
+          "id": "d_040",
+          "cluster_id": "duration_by_until_for",
+          "sentence": "She needs to complete the online course ___ the end of the month or lose access.",
+          "correct": "by",
+          "distractors": [
+            "until",
+            "for",
+            "at"
+          ],
+          "rule_id": "rule_by_deadline",
+          "tags": [
+            "difficulty_3"
+          ],
+          "is_famous": false,
+          "is_irregular": false,
+          "source": null
+        }
+      ]
+    },
+    {
+      "id": "movement_to_for_with",
+      "title": "TO / FOR / WITH",
+      "subtitle": "Direction, purpose, and company",
+      "prepositions": [
+        "to",
+        "for",
+        "with"
+      ],
+      "intro_rules": [
+        "rule_to_destination",
+        "rule_for_purpose",
+        "rule_with_accompaniment"
+      ],
+      "contrast_note": "TO = movement or direction. FOR = purpose or recipient. WITH = accompanying or using.",
+      "cards": [
+        {
+          "id": "m_001",
+          "cluster_id": "movement_to_for_with",
+          "sentence": "She walked ___ the library after school.",
+          "correct": "to",
+          "distractors": [
+            "for",
+            "with",
+            "into"
+          ],
+          "rule_id": "rule_to_destination",
+          "tags": [
+            "difficulty_1"
+          ],
+          "is_famous": false,
+          "is_irregular": false,
+          "source": null
+        },
+        {
+          "id": "m_002",
+          "cluster_id": "movement_to_for_with",
+          "sentence": "He bought flowers ___ his mother.",
+          "correct": "for",
+          "distractors": [
+            "to",
+            "with",
+            "of"
+          ],
+          "rule_id": "rule_for_purpose",
+          "tags": [
+            "difficulty_1"
+          ],
+          "is_famous": false,
+          "is_irregular": false,
+          "source": null
+        },
+        {
+          "id": "m_003",
+          "cluster_id": "movement_to_for_with",
+          "sentence": "She cut the bread ___ a sharp knife.",
+          "correct": "with",
+          "distractors": [
+            "to",
+            "for",
+            "by"
+          ],
+          "rule_id": "rule_with_accompaniment",
+          "tags": [
+            "difficulty_1"
+          ],
+          "is_famous": false,
+          "is_irregular": false,
+          "source": null
+        },
+        {
+          "id": "m_004",
+          "cluster_id": "movement_to_for_with",
+          "sentence": "They are travelling ___ Rome next week.",
+          "correct": "to",
+          "distractors": [
+            "for",
+            "with",
+            "in"
+          ],
+          "rule_id": "rule_to_destination",
+          "tags": [
+            "difficulty_1"
+          ],
+          "is_famous": false,
+          "is_irregular": false,
+          "source": null
+        },
+        {
+          "id": "m_005",
+          "cluster_id": "movement_to_for_with",
+          "sentence": "This sandwich is ___ you — I made it specially.",
+          "correct": "for",
+          "distractors": [
+            "to",
+            "with",
+            "of"
+          ],
+          "rule_id": "rule_for_purpose",
+          "tags": [
+            "difficulty_1"
+          ],
+          "is_famous": false,
+          "is_irregular": false,
+          "source": null
+        },
+        {
+          "id": "m_006",
+          "cluster_id": "movement_to_for_with",
+          "sentence": "He came home ___ two bags of groceries.",
+          "correct": "with",
+          "distractors": [
+            "to",
+            "for",
+            "and"
+          ],
+          "rule_id": "rule_with_accompaniment",
+          "tags": [
+            "difficulty_1"
+          ],
+          "is_famous": false,
+          "is_irregular": false,
+          "source": null
+        },
+        {
+          "id": "m_007",
+          "cluster_id": "movement_to_for_with",
+          "sentence": "She sent a long email ___ her manager.",
+          "correct": "to",
+          "distractors": [
+            "for",
+            "with",
+            "at"
+          ],
+          "rule_id": "rule_to_destination",
+          "tags": [
+            "difficulty_2"
+          ],
+          "is_famous": false,
+          "is_irregular": false,
+          "source": null
+        },
+        {
+          "id": "m_008",
+          "cluster_id": "movement_to_for_with",
+          "sentence": "He goes jogging ___ his dog every morning.",
+          "correct": "with",
+          "distractors": [
+            "to",
+            "for",
+            "and"
+          ],
+          "rule_id": "rule_with_accompaniment",
+          "tags": [
+            "difficulty_1"
+          ],
+          "is_famous": false,
+          "is_irregular": false,
+          "source": null
+        },
+        {
+          "id": "m_009",
+          "cluster_id": "movement_to_for_with",
+          "sentence": "She mixed the flour ___ butter and sugar.",
+          "correct": "with",
+          "distractors": [
+            "to",
+            "for",
+            "and"
+          ],
+          "rule_id": "rule_with_accompaniment",
+          "tags": [
+            "difficulty_1"
+          ],
+          "is_famous": false,
+          "is_irregular": false,
+          "source": null
+        },
+        {
+          "id": "m_010",
+          "cluster_id": "movement_to_for_with",
+          "sentence": "He drove her ___ the hospital immediately.",
+          "correct": "to",
+          "distractors": [
+            "for",
+            "with",
+            "at"
+          ],
+          "rule_id": "rule_to_destination",
+          "tags": [
+            "difficulty_1"
+          ],
+          "is_famous": false,
+          "is_irregular": false,
+          "source": null
+        },
+        {
+          "id": "m_011",
+          "cluster_id": "movement_to_for_with",
+          "sentence": "She brought a bottle of wine ___ the party.",
+          "correct": "to",
+          "distractors": [
+            "for",
+            "with",
+            "at"
+          ],
+          "rule_id": "rule_to_destination",
+          "tags": [
+            "difficulty_2"
+          ],
+          "is_famous": false,
+          "is_irregular": false,
+          "source": null
+        },
+        {
+          "id": "m_012",
+          "cluster_id": "movement_to_for_with",
+          "sentence": "They rented a cottage ___ a week by the sea.",
+          "correct": "for",
+          "distractors": [
+            "to",
+            "with",
+            "on"
+          ],
+          "rule_id": "rule_for_purpose",
+          "tags": [
+            "difficulty_2"
+          ],
+          "is_famous": false,
+          "is_irregular": false,
+          "source": null
+        },
+        {
+          "id": "m_013",
+          "cluster_id": "movement_to_for_with",
+          "sentence": "He paid ___ the drinks in cash.",
+          "correct": "for",
+          "distractors": [
+            "to",
+            "with",
+            "of"
+          ],
+          "rule_id": "rule_for_purpose",
+          "tags": [
+            "difficulty_1"
+          ],
+          "is_famous": false,
+          "is_irregular": false,
+          "source": null
+        },
+        {
+          "id": "m_014",
+          "cluster_id": "movement_to_for_with",
+          "sentence": "She signed the document ___ a pen she borrowed from the receptionist.",
+          "correct": "with",
+          "distractors": [
+            "to",
+            "for",
+            "by"
+          ],
+          "rule_id": "rule_with_accompaniment",
+          "tags": [
+            "difficulty_1"
+          ],
+          "is_famous": false,
+          "is_irregular": false,
+          "source": null
+        },
+        {
+          "id": "m_015",
+          "cluster_id": "movement_to_for_with",
+          "sentence": "The coach spoke ___ the team before the match.",
+          "correct": "to",
+          "distractors": [
+            "for",
+            "with",
+            "at"
+          ],
+          "rule_id": "rule_to_destination",
+          "tags": [
+            "difficulty_1"
+          ],
+          "is_famous": false,
+          "is_irregular": false,
+          "source": null
+        },
+        {
+          "id": "m_016",
+          "cluster_id": "movement_to_for_with",
+          "sentence": "She is looking ___ a new flat closer to work.",
+          "correct": "for",
+          "distractors": [
+            "to",
+            "with",
+            "at"
+          ],
+          "rule_id": "rule_for_purpose",
+          "tags": [
+            "difficulty_1"
+          ],
+          "is_famous": false,
+          "is_irregular": false,
+          "source": null
+        },
+        {
+          "id": "m_017",
+          "cluster_id": "movement_to_for_with",
+          "sentence": "He arrived at the event ___ his whole family in tow.",
+          "correct": "with",
+          "distractors": [
+            "to",
+            "for",
+            "and"
+          ],
+          "rule_id": "rule_with_accompaniment",
+          "tags": [
+            "difficulty_2"
+          ],
+          "is_famous": false,
+          "is_irregular": false,
+          "source": null
+        },
+        {
+          "id": "m_018",
+          "cluster_id": "movement_to_for_with",
+          "sentence": "They donated the money ___ a local food bank.",
+          "correct": "to",
+          "distractors": [
+            "for",
+            "with",
+            "at"
+          ],
+          "rule_id": "rule_to_destination",
+          "tags": [
+            "difficulty_2"
+          ],
+          "is_famous": false,
+          "is_irregular": false,
+          "source": null
+        },
+        {
+          "id": "m_019",
+          "cluster_id": "movement_to_for_with",
+          "sentence": "She is saving up ___ a trip to South America.",
+          "correct": "for",
+          "distractors": [
+            "to",
+            "with",
+            "on"
+          ],
+          "rule_id": "rule_for_purpose",
+          "tags": [
+            "difficulty_1"
+          ],
+          "is_famous": false,
+          "is_irregular": false,
+          "source": null
+        },
+        {
+          "id": "m_020",
+          "cluster_id": "movement_to_for_with",
+          "sentence": "He sent a postcard ___ his friends back home.",
+          "correct": "to",
+          "distractors": [
+            "for",
+            "with",
+            "at"
+          ],
+          "rule_id": "rule_to_destination",
+          "tags": [
+            "difficulty_1"
+          ],
+          "is_famous": false,
+          "is_irregular": false,
+          "source": null
+        },
+        {
+          "id": "m_021",
+          "cluster_id": "movement_to_for_with",
+          "sentence": "She cooked the pasta ___ olive oil and garlic.",
+          "correct": "with",
+          "distractors": [
+            "to",
+            "for",
+            "in"
+          ],
+          "rule_id": "rule_with_accompaniment",
+          "tags": [
+            "difficulty_1"
+          ],
+          "is_famous": false,
+          "is_irregular": false,
+          "source": null
+        },
+        {
+          "id": "m_022",
+          "cluster_id": "movement_to_for_with",
+          "sentence": "We're going ___ the cinema tonight — do you want to come?",
+          "correct": "to",
+          "distractors": [
+            "for",
+            "with",
+            "at"
+          ],
+          "rule_id": "rule_to_destination",
+          "tags": [
+            "difficulty_1"
+          ],
+          "is_famous": false,
+          "is_irregular": false,
+          "source": null
+        },
+        {
+          "id": "m_023",
+          "cluster_id": "movement_to_for_with",
+          "sentence": "He did it ___ fun, not because anyone asked him to.",
+          "correct": "for",
+          "distractors": [
+            "to",
+            "with",
+            "of"
+          ],
+          "rule_id": "rule_for_purpose",
+          "tags": [
+            "difficulty_1"
+          ],
+          "is_famous": false,
+          "is_irregular": false,
+          "source": null
+        },
+        {
+          "id": "m_024",
+          "cluster_id": "movement_to_for_with",
+          "sentence": "The room was decorated ___ balloons and streamers.",
+          "correct": "with",
+          "distractors": [
+            "to",
+            "for",
+            "by"
+          ],
+          "rule_id": "rule_with_accompaniment",
+          "tags": [
+            "difficulty_1"
+          ],
+          "is_famous": false,
+          "is_irregular": false,
+          "source": null
+        },
+        {
+          "id": "m_025",
+          "cluster_id": "movement_to_for_with",
+          "sentence": "She applied ___ a scholarship to study overseas.",
+          "correct": "for",
+          "distractors": [
+            "to",
+            "with",
+            "at"
+          ],
+          "rule_id": "rule_for_purpose",
+          "tags": [
+            "difficulty_2"
+          ],
+          "is_famous": false,
+          "is_irregular": false,
+          "source": null
+        },
+        {
+          "id": "m_026",
+          "cluster_id": "movement_to_for_with",
+          "sentence": "He flew ___ New York on business last spring.",
+          "correct": "to",
+          "distractors": [
+            "for",
+            "with",
+            "in"
+          ],
+          "rule_id": "rule_to_destination",
+          "tags": [
+            "difficulty_1"
+          ],
+          "is_famous": false,
+          "is_irregular": false,
+          "source": null
+        },
+        {
+          "id": "m_027",
+          "cluster_id": "movement_to_for_with",
+          "sentence": "She wrote the letter ___ a fountain pen.",
+          "correct": "with",
+          "distractors": [
+            "to",
+            "for",
+            "by"
+          ],
+          "rule_id": "rule_with_accompaniment",
+          "tags": [
+            "difficulty_1"
+          ],
+          "is_famous": false,
+          "is_irregular": false,
+          "source": null
+        },
+        {
+          "id": "m_028",
+          "cluster_id": "movement_to_for_with",
+          "sentence": "She offered her seat ___ an elderly passenger.",
+          "correct": "to",
+          "distractors": [
+            "for",
+            "with",
+            "at"
+          ],
+          "rule_id": "rule_to_destination",
+          "tags": [
+            "difficulty_2"
+          ],
+          "is_famous": false,
+          "is_irregular": false,
+          "source": null
+        },
+        {
+          "id": "m_029",
+          "cluster_id": "movement_to_for_with",
+          "sentence": "They charged me extra ___ the checked baggage.",
+          "correct": "for",
+          "distractors": [
+            "to",
+            "with",
+            "on"
+          ],
+          "rule_id": "rule_for_purpose",
+          "tags": [
+            "difficulty_2"
+          ],
+          "is_famous": false,
+          "is_irregular": false,
+          "source": null
+        },
+        {
+          "id": "m_030",
+          "cluster_id": "movement_to_for_with",
+          "sentence": "He sprinkled the salad ___ a little salt and pepper.",
+          "correct": "with",
+          "distractors": [
+            "to",
+            "for",
+            "by"
+          ],
+          "rule_id": "rule_with_accompaniment",
+          "tags": [
+            "difficulty_1"
+          ],
+          "is_famous": false,
+          "is_irregular": false,
+          "source": null
+        },
+        {
+          "id": "m_031",
+          "cluster_id": "movement_to_for_with",
+          "sentence": "She ran ___ the door when the bell rang.",
+          "correct": "to",
+          "distractors": [
+            "for",
+            "with",
+            "at"
+          ],
+          "rule_id": "rule_to_destination",
+          "tags": [
+            "difficulty_1"
+          ],
+          "is_famous": false,
+          "is_irregular": false,
+          "source": null
+        },
+        {
+          "id": "m_032",
+          "cluster_id": "movement_to_for_with",
+          "sentence": "They gathered there ___ a specific purpose, though no one said what.",
+          "correct": "for",
+          "distractors": [
+            "to",
+            "with",
+            "at"
+          ],
+          "rule_id": "rule_for_purpose",
+          "tags": [
+            "difficulty_2"
+          ],
+          "is_famous": false,
+          "is_irregular": false,
+          "source": null
+        },
+        {
+          "id": "m_033",
+          "cluster_id": "movement_to_for_with",
+          "sentence": "He filled the bath ___ warm water and a few drops of lavender oil.",
+          "correct": "with",
+          "distractors": [
+            "to",
+            "for",
+            "by"
+          ],
+          "rule_id": "rule_with_accompaniment",
+          "tags": [
+            "difficulty_1"
+          ],
+          "is_famous": false,
+          "is_irregular": false,
+          "source": null
+        },
+        {
+          "id": "m_034",
+          "cluster_id": "movement_to_for_with",
+          "sentence": "She returned the book ___ the library on time.",
+          "correct": "to",
+          "distractors": [
+            "for",
+            "with",
+            "at"
+          ],
+          "rule_id": "rule_to_destination",
+          "tags": [
+            "difficulty_1"
+          ],
+          "is_famous": false,
+          "is_irregular": false,
+          "source": null
+        },
+        {
+          "id": "m_035",
+          "cluster_id": "movement_to_for_with",
+          "sentence": "They sell fresh bread here ___ only one pound a loaf.",
+          "correct": "for",
+          "distractors": [
+            "to",
+            "with",
+            "at"
+          ],
+          "rule_id": "rule_for_purpose",
+          "tags": [
+            "difficulty_2"
+          ],
+          "is_famous": false,
+          "is_irregular": false,
+          "source": null
+        },
+        {
+          "id": "m_036",
+          "cluster_id": "movement_to_for_with",
+          "sentence": "He cleaned the windows ___ a damp cloth.",
+          "correct": "with",
+          "distractors": [
+            "to",
+            "for",
+            "by"
+          ],
+          "rule_id": "rule_with_accompaniment",
+          "tags": [
+            "difficulty_1"
+          ],
+          "is_famous": false,
+          "is_irregular": false,
+          "source": null
+        },
+        {
+          "id": "m_037",
+          "cluster_id": "movement_to_for_with",
+          "sentence": "She handed the report ___ her supervisor before the deadline.",
+          "correct": "to",
+          "distractors": [
+            "for",
+            "with",
+            "at"
+          ],
+          "rule_id": "rule_to_destination",
+          "tags": [
+            "difficulty_1"
+          ],
+          "is_famous": false,
+          "is_irregular": false,
+          "source": null
+        },
+        {
+          "id": "m_038",
+          "cluster_id": "movement_to_for_with",
+          "sentence": "They are looking ___ someone to lead the project.",
+          "correct": "for",
+          "distractors": [
+            "to",
+            "with",
+            "at"
+          ],
+          "rule_id": "rule_for_purpose",
+          "tags": [
+            "difficulty_1"
+          ],
+          "is_famous": false,
+          "is_irregular": false,
+          "source": null
+        },
+        {
+          "id": "m_039",
+          "cluster_id": "movement_to_for_with",
+          "sentence": "He finished the puzzle ___ help from his daughter.",
+          "correct": "with",
+          "distractors": [
+            "to",
+            "for",
+            "by"
+          ],
+          "rule_id": "rule_with_accompaniment",
+          "tags": [
+            "difficulty_2"
+          ],
+          "is_famous": false,
+          "is_irregular": false,
+          "source": null
+        },
+        {
+          "id": "m_040",
+          "cluster_id": "movement_to_for_with",
+          "sentence": "She went ___ the doctor after three days of not feeling well.",
+          "correct": "to",
+          "distractors": [
+            "for",
+            "with",
+            "at"
+          ],
+          "rule_id": "rule_to_destination",
+          "tags": [
+            "difficulty_1"
+          ],
+          "is_famous": false,
+          "is_irregular": false,
+          "source": null
+        }
+      ]
+    },
+    {
+      "id": "origin_of_about_from",
+      "title": "FROM / OF / ABOUT",
+      "subtitle": "Origins, content, and topics",
+      "prepositions": [
+        "from",
+        "of",
+        "about"
+      ],
+      "intro_rules": [
+        "rule_from_origin",
+        "rule_of_possession",
+        "rule_about_topic"
+      ],
+      "contrast_note": "FROM = starting point or source. OF = part, content, or belonging. ABOUT = the topic or subject.",
+      "cards": [
+        {
+          "id": "o_001",
+          "cluster_id": "origin_of_about_from",
+          "sentence": "She received a letter ___ her old friend in Canada.",
+          "correct": "from",
+          "distractors": [
+            "of",
+            "about",
+            "by"
+          ],
+          "rule_id": "rule_from_origin",
+          "tags": [
+            "difficulty_1"
+          ],
+          "is_famous": false,
+          "is_irregular": false,
+          "source": null
+        },
+        {
+          "id": "o_002",
+          "cluster_id": "origin_of_about_from",
+          "sentence": "He told me everything ___ his trip to Morocco.",
+          "correct": "about",
+          "distractors": [
+            "from",
+            "of",
+            "on"
+          ],
+          "rule_id": "rule_about_topic",
+          "tags": [
+            "difficulty_1"
+          ],
+          "is_famous": false,
+          "is_irregular": false,
+          "source": null
+        },
+        {
+          "id": "o_003",
+          "cluster_id": "origin_of_about_from",
+          "sentence": "This is a picture ___ my grandmother as a young woman.",
+          "correct": "of",
+          "distractors": [
+            "from",
+            "about",
+            "with"
+          ],
+          "rule_id": "rule_of_possession",
+          "tags": [
+            "difficulty_1"
+          ],
+          "is_famous": false,
+          "is_irregular": false,
+          "source": null
+        },
+        {
+          "id": "o_004",
+          "cluster_id": "origin_of_about_from",
+          "sentence": "Where are you originally ___?",
+          "correct": "from",
+          "distractors": [
+            "of",
+            "about",
+            "at"
+          ],
+          "rule_id": "rule_from_origin",
+          "tags": [
+            "difficulty_1"
+          ],
+          "is_famous": false,
+          "is_irregular": false,
+          "source": null
+        },
+        {
+          "id": "o_005",
+          "cluster_id": "origin_of_about_from",
+          "sentence": "They argued ___ money for hours.",
+          "correct": "about",
+          "distractors": [
+            "from",
+            "of",
+            "on"
+          ],
+          "rule_id": "rule_about_topic",
+          "tags": [
+            "difficulty_1"
+          ],
+          "is_famous": false,
+          "is_irregular": false,
+          "source": null
+        },
+        {
+          "id": "o_006",
+          "cluster_id": "origin_of_about_from",
+          "sentence": "The roof ___ the old house was leaking badly.",
+          "correct": "of",
+          "distractors": [
+            "from",
+            "about",
+            "in"
+          ],
+          "rule_id": "rule_of_possession",
+          "tags": [
+            "difficulty_1"
+          ],
+          "is_famous": false,
+          "is_irregular": false,
+          "source": null
+        },
+        {
+          "id": "o_007",
+          "cluster_id": "origin_of_about_from",
+          "sentence": "She comes ___ a long line of musicians.",
+          "correct": "from",
+          "distractors": [
+            "of",
+            "about",
+            "in"
+          ],
+          "rule_id": "rule_from_origin",
+          "tags": [
+            "difficulty_2"
+          ],
+          "is_famous": false,
+          "is_irregular": false,
+          "source": null
+        },
+        {
+          "id": "o_008",
+          "cluster_id": "origin_of_about_from",
+          "sentence": "The documentary is ___ the lives of deep-sea fishermen.",
+          "correct": "about",
+          "distractors": [
+            "from",
+            "of",
+            "on"
+          ],
+          "rule_id": "rule_about_topic",
+          "tags": [
+            "difficulty_1"
+          ],
+          "is_famous": false,
+          "is_irregular": false,
+          "source": null
+        },
+        {
+          "id": "o_009",
+          "cluster_id": "origin_of_about_from",
+          "sentence": "She got a scholarship ___ the best university in the country.",
+          "correct": "from",
+          "distractors": [
+            "of",
+            "about",
+            "at"
+          ],
+          "rule_id": "rule_from_origin",
+          "tags": [
+            "difficulty_2"
+          ],
+          "is_famous": false,
+          "is_irregular": false,
+          "source": null
+        },
+        {
+          "id": "o_010",
+          "cluster_id": "origin_of_about_from",
+          "sentence": "The smell ___ fresh bread filled the whole street.",
+          "correct": "of",
+          "distractors": [
+            "from",
+            "about",
+            "with"
+          ],
+          "rule_id": "rule_of_possession",
+          "tags": [
+            "difficulty_1"
+          ],
+          "is_famous": false,
+          "is_irregular": false,
+          "source": null
+        },
+        {
+          "id": "o_011",
+          "cluster_id": "origin_of_about_from",
+          "sentence": "He complained ___ the noise coming from upstairs.",
+          "correct": "about",
+          "distractors": [
+            "from",
+            "of",
+            "on"
+          ],
+          "rule_id": "rule_about_topic",
+          "tags": [
+            "difficulty_1"
+          ],
+          "is_famous": false,
+          "is_irregular": false,
+          "source": null
+        },
+        {
+          "id": "o_012",
+          "cluster_id": "origin_of_about_from",
+          "sentence": "This tea comes all the way ___ a small region in Sri Lanka.",
+          "correct": "from",
+          "distractors": [
+            "of",
+            "about",
+            "in"
+          ],
+          "rule_id": "rule_from_origin",
+          "tags": [
+            "difficulty_1"
+          ],
+          "is_famous": false,
+          "is_irregular": false,
+          "source": null
+        },
+        {
+          "id": "o_013",
+          "cluster_id": "origin_of_about_from",
+          "sentence": "The bottom ___ the sea is full of life we haven't discovered yet.",
+          "correct": "of",
+          "distractors": [
+            "from",
+            "about",
+            "in"
+          ],
+          "rule_id": "rule_of_possession",
+          "tags": [
+            "difficulty_1"
+          ],
+          "is_famous": false,
+          "is_irregular": false,
+          "source": null
+        },
+        {
+          "id": "o_014",
+          "cluster_id": "origin_of_about_from",
+          "sentence": "She knows everything ___ the history of that region.",
+          "correct": "about",
+          "distractors": [
+            "from",
+            "of",
+            "on"
+          ],
+          "rule_id": "rule_about_topic",
+          "tags": [
+            "difficulty_1"
+          ],
+          "is_famous": false,
+          "is_irregular": false,
+          "source": null
+        },
+        {
+          "id": "o_015",
+          "cluster_id": "origin_of_about_from",
+          "sentence": "He recovered quickly ___ his illness.",
+          "correct": "from",
+          "distractors": [
+            "of",
+            "about",
+            "after"
+          ],
+          "rule_id": "rule_from_origin",
+          "tags": [
+            "difficulty_2"
+          ],
+          "is_famous": false,
+          "is_irregular": false,
+          "source": null
+        },
+        {
+          "id": "o_016",
+          "cluster_id": "origin_of_about_from",
+          "sentence": "The title ___ the film comes from a famous poem.",
+          "correct": "of",
+          "distractors": [
+            "from",
+            "about",
+            "in"
+          ],
+          "rule_id": "rule_of_possession",
+          "tags": [
+            "difficulty_2"
+          ],
+          "is_famous": false,
+          "is_irregular": false,
+          "source": null
+        },
+        {
+          "id": "o_017",
+          "cluster_id": "origin_of_about_from",
+          "sentence": "They talked ___ their plans for the summer for hours.",
+          "correct": "about",
+          "distractors": [
+            "from",
+            "of",
+            "on"
+          ],
+          "rule_id": "rule_about_topic",
+          "tags": [
+            "difficulty_1"
+          ],
+          "is_famous": false,
+          "is_irregular": false,
+          "source": null
+        },
+        {
+          "id": "o_018",
+          "cluster_id": "origin_of_about_from",
+          "sentence": "She learned to cook ___ her grandmother.",
+          "correct": "from",
+          "distractors": [
+            "of",
+            "about",
+            "with"
+          ],
+          "rule_id": "rule_from_origin",
+          "tags": [
+            "difficulty_2"
+          ],
+          "is_famous": false,
+          "is_irregular": false,
+          "source": null
+        },
+        {
+          "id": "o_019",
+          "cluster_id": "origin_of_about_from",
+          "sentence": "The price ___ the ticket includes all taxes and fees.",
+          "correct": "of",
+          "distractors": [
+            "from",
+            "about",
+            "for"
+          ],
+          "rule_id": "rule_of_possession",
+          "tags": [
+            "difficulty_1"
+          ],
+          "is_famous": false,
+          "is_irregular": false,
+          "source": null
+        },
+        {
+          "id": "o_020",
+          "cluster_id": "origin_of_about_from",
+          "sentence": "They were curious ___ the strange light in the sky.",
+          "correct": "about",
+          "distractors": [
+            "from",
+            "of",
+            "in"
+          ],
+          "rule_id": "rule_about_topic",
+          "tags": [
+            "difficulty_1"
+          ],
+          "is_famous": false,
+          "is_irregular": false,
+          "source": null
+        },
+        {
+          "id": "o_021",
+          "cluster_id": "origin_of_about_from",
+          "sentence": "He was exhausted ___ the long journey.",
+          "correct": "from",
+          "distractors": [
+            "of",
+            "about",
+            "after"
+          ],
+          "rule_id": "rule_from_origin",
+          "tags": [
+            "difficulty_2"
+          ],
+          "is_famous": false,
+          "is_irregular": false,
+          "source": null
+        },
+        {
+          "id": "o_022",
+          "cluster_id": "origin_of_about_from",
+          "sentence": "A large part ___ the city was damaged in the flood.",
+          "correct": "of",
+          "distractors": [
+            "from",
+            "about",
+            "in"
+          ],
+          "rule_id": "rule_of_possession",
+          "tags": [
+            "difficulty_1"
+          ],
+          "is_famous": false,
+          "is_irregular": false,
+          "source": null
+        },
+        {
+          "id": "o_023",
+          "cluster_id": "origin_of_about_from",
+          "sentence": "She knows a lot ___ traditional Japanese architecture.",
+          "correct": "about",
+          "distractors": [
+            "from",
+            "of",
+            "on"
+          ],
+          "rule_id": "rule_about_topic",
+          "tags": [
+            "difficulty_1"
+          ],
+          "is_famous": false,
+          "is_irregular": false,
+          "source": null
+        },
+        {
+          "id": "o_024",
+          "cluster_id": "origin_of_about_from",
+          "sentence": "The flavour ___ this dish comes from a blend of spices.",
+          "correct": "of",
+          "distractors": [
+            "from",
+            "about",
+            "in"
+          ],
+          "rule_id": "rule_of_possession",
+          "tags": [
+            "difficulty_1"
+          ],
+          "is_famous": false,
+          "is_irregular": false,
+          "source": null
+        },
+        {
+          "id": "o_025",
+          "cluster_id": "origin_of_about_from",
+          "sentence": "He has been living far ___ his family for many years.",
+          "correct": "from",
+          "distractors": [
+            "of",
+            "about",
+            "away"
+          ],
+          "rule_id": "rule_from_origin",
+          "tags": [
+            "difficulty_2"
+          ],
+          "is_famous": false,
+          "is_irregular": false,
+          "source": null
+        },
+        {
+          "id": "o_026",
+          "cluster_id": "origin_of_about_from",
+          "sentence": "She published an article ___ the effects of social media on teenagers.",
+          "correct": "about",
+          "distractors": [
+            "from",
+            "of",
+            "on"
+          ],
+          "rule_id": "rule_about_topic",
+          "tags": [
+            "difficulty_2"
+          ],
+          "is_famous": false,
+          "is_irregular": false,
+          "source": null
+        },
+        {
+          "id": "o_027",
+          "cluster_id": "origin_of_about_from",
+          "sentence": "The news ___ the discovery surprised the entire scientific community.",
+          "correct": "of",
+          "distractors": [
+            "from",
+            "about",
+            "on"
+          ],
+          "rule_id": "rule_of_possession",
+          "tags": [
+            "difficulty_2"
+          ],
+          "is_famous": false,
+          "is_irregular": false,
+          "source": null
+        },
+        {
+          "id": "o_028",
+          "cluster_id": "origin_of_about_from",
+          "sentence": "He translated the text directly ___ the original Latin.",
+          "correct": "from",
+          "distractors": [
+            "of",
+            "about",
+            "in"
+          ],
+          "rule_id": "rule_from_origin",
+          "tags": [
+            "difficulty_2"
+          ],
+          "is_famous": false,
+          "is_irregular": false,
+          "source": null
+        },
+        {
+          "id": "o_029",
+          "cluster_id": "origin_of_about_from",
+          "sentence": "She was reading a book ___ the life of Marie Curie.",
+          "correct": "about",
+          "distractors": [
+            "from",
+            "of",
+            "on"
+          ],
+          "rule_id": "rule_about_topic",
+          "tags": [
+            "difficulty_1"
+          ],
+          "is_famous": false,
+          "is_irregular": false,
+          "source": null
+        },
+        {
+          "id": "o_030",
+          "cluster_id": "origin_of_about_from",
+          "sentence": "The value ___ the painting has increased dramatically over the years.",
+          "correct": "of",
+          "distractors": [
+            "from",
+            "about",
+            "for"
+          ],
+          "rule_id": "rule_of_possession",
+          "tags": [
+            "difficulty_1"
+          ],
+          "is_famous": false,
+          "is_irregular": false,
+          "source": null
+        },
+        {
+          "id": "o_031",
+          "cluster_id": "origin_of_about_from",
+          "sentence": "The wool in this jumper comes ___ alpacas raised in Peru.",
+          "correct": "from",
+          "distractors": [
+            "of",
+            "about",
+            "in"
+          ],
+          "rule_id": "rule_from_origin",
+          "tags": [
+            "difficulty_2"
+          ],
+          "is_famous": false,
+          "is_irregular": false,
+          "source": null
+        },
+        {
+          "id": "o_032",
+          "cluster_id": "origin_of_about_from",
+          "sentence": "She's always talking ___ her plans to move abroad.",
+          "correct": "about",
+          "distractors": [
+            "from",
+            "of",
+            "on"
+          ],
+          "rule_id": "rule_about_topic",
+          "tags": [
+            "difficulty_1"
+          ],
+          "is_famous": false,
+          "is_irregular": false,
+          "source": null
+        },
+        {
+          "id": "o_033",
+          "cluster_id": "origin_of_about_from",
+          "sentence": "A third ___ the profits went to local charities.",
+          "correct": "of",
+          "distractors": [
+            "from",
+            "about",
+            "in"
+          ],
+          "rule_id": "rule_of_possession",
+          "tags": [
+            "difficulty_1"
+          ],
+          "is_famous": false,
+          "is_irregular": false,
+          "source": null
+        },
+        {
+          "id": "o_034",
+          "cluster_id": "origin_of_about_from",
+          "sentence": "He graduated ___ a top engineering school last year.",
+          "correct": "from",
+          "distractors": [
+            "of",
+            "about",
+            "at"
+          ],
+          "rule_id": "rule_from_origin",
+          "tags": [
+            "difficulty_1"
+          ],
+          "is_famous": false,
+          "is_irregular": false,
+          "source": null
+        },
+        {
+          "id": "o_035",
+          "cluster_id": "origin_of_about_from",
+          "sentence": "She's been writing a column ___ the challenges facing new parents.",
+          "correct": "about",
+          "distractors": [
+            "from",
+            "of",
+            "on"
+          ],
+          "rule_id": "rule_about_topic",
+          "tags": [
+            "difficulty_2"
+          ],
+          "is_famous": false,
+          "is_irregular": false,
+          "source": null
+        },
+        {
+          "id": "o_036",
+          "cluster_id": "origin_of_about_from",
+          "sentence": "The end ___ the story was completely unexpected.",
+          "correct": "of",
+          "distractors": [
+            "from",
+            "about",
+            "in"
+          ],
+          "rule_id": "rule_of_possession",
+          "tags": [
+            "difficulty_1"
+          ],
+          "is_famous": false,
+          "is_irregular": false,
+          "source": null
+        },
+        {
+          "id": "o_037",
+          "cluster_id": "origin_of_about_from",
+          "sentence": "She heard the news ___ a colleague she bumped into at the supermarket.",
+          "correct": "from",
+          "distractors": [
+            "of",
+            "about",
+            "by"
+          ],
+          "rule_id": "rule_from_origin",
+          "tags": [
+            "difficulty_2"
+          ],
+          "is_famous": false,
+          "is_irregular": false,
+          "source": null
+        },
+        {
+          "id": "o_038",
+          "cluster_id": "origin_of_about_from",
+          "sentence": "He's been warned ___ the risks several times.",
+          "correct": "about",
+          "distractors": [
+            "from",
+            "of",
+            "on"
+          ],
+          "rule_id": "rule_about_topic",
+          "tags": [
+            "difficulty_1"
+          ],
+          "is_famous": false,
+          "is_irregular": false,
+          "source": null
+        },
+        {
+          "id": "o_039",
+          "cluster_id": "origin_of_about_from",
+          "sentence": "The handle ___ the door was loose and kept turning without opening it.",
+          "correct": "of",
+          "distractors": [
+            "from",
+            "about",
+            "on"
+          ],
+          "rule_id": "rule_of_possession",
+          "tags": [
+            "difficulty_1"
+          ],
+          "is_famous": false,
+          "is_irregular": false,
+          "source": null
+        },
+        {
+          "id": "o_040",
+          "cluster_id": "origin_of_about_from",
+          "sentence": "She borrowed the recipe ___ an old book she found in the attic.",
+          "correct": "from",
+          "distractors": [
+            "of",
+            "about",
+            "in"
+          ],
+          "rule_id": "rule_from_origin",
+          "tags": [
+            "difficulty_2"
+          ],
+          "is_famous": false,
+          "is_irregular": false,
+          "source": null
+        }
+      ]
+    },
+    {
+      "id": "collocations",
+      "title": "Fixed Phrases",
+      "subtitle": "These don't follow rules — you just learn them.",
+      "prepositions": [
+        "in",
+        "on",
+        "at",
+        "to",
+        "for",
+        "with",
+        "of",
+        "about",
+        "from"
+      ],
+      "intro_rules": [
+        "rule_irregular_collocation"
+      ],
+      "contrast_note": "These verb + preposition and adjective + preposition pairs are fixed. There is no spatial logic. Memorize them as units.",
+      "cards": [
+        {
+          "id": "c_001",
+          "cluster_id": "collocations",
+          "sentence": "He has always been very good ___ languages.",
+          "correct": "at",
+          "distractors": [
+            "in",
+            "with",
+            "for"
+          ],
+          "rule_id": "rule_irregular_collocation",
+          "tags": [
+            "difficulty_2",
+            "adjective_prep"
+          ],
+          "is_famous": false,
+          "is_irregular": true,
+          "source": null
+        },
+        {
+          "id": "c_002",
+          "cluster_id": "collocations",
+          "sentence": "She is really interested ___ marine biology.",
+          "correct": "in",
+          "distractors": [
+            "at",
+            "about",
+            "for"
+          ],
+          "rule_id": "rule_irregular_collocation",
+          "tags": [
+            "difficulty_1",
+            "adjective_prep"
+          ],
+          "is_famous": false,
+          "is_irregular": true,
+          "source": null
+        },
+        {
+          "id": "c_003",
+          "cluster_id": "collocations",
+          "sentence": "Everything depends ___ the weather tomorrow.",
+          "correct": "on",
+          "distractors": [
+            "in",
+            "at",
+            "from"
+          ],
+          "rule_id": "rule_irregular_collocation",
+          "tags": [
+            "difficulty_2",
+            "verb_prep"
+          ],
+          "is_famous": false,
+          "is_irregular": true,
+          "source": null
+        },
+        {
+          "id": "c_004",
+          "cluster_id": "collocations",
+          "sentence": "She feels very proud ___ her daughter's achievement.",
+          "correct": "of",
+          "distractors": [
+            "for",
+            "about",
+            "in"
+          ],
+          "rule_id": "rule_irregular_collocation",
+          "tags": [
+            "difficulty_1",
+            "adjective_prep"
+          ],
+          "is_famous": false,
+          "is_irregular": true,
+          "source": null
+        },
+        {
+          "id": "c_005",
+          "cluster_id": "collocations",
+          "sentence": "He is responsible ___ the entire project.",
+          "correct": "for",
+          "distractors": [
+            "of",
+            "about",
+            "with"
+          ],
+          "rule_id": "rule_irregular_collocation",
+          "tags": [
+            "difficulty_2",
+            "adjective_prep"
+          ],
+          "is_famous": false,
+          "is_irregular": true,
+          "source": null
+        },
+        {
+          "id": "c_006",
+          "cluster_id": "collocations",
+          "sentence": "They listened carefully ___ the instructions.",
+          "correct": "to",
+          "distractors": [
+            "at",
+            "for",
+            "with"
+          ],
+          "rule_id": "rule_irregular_collocation",
+          "tags": [
+            "difficulty_1",
+            "verb_prep"
+          ],
+          "is_famous": false,
+          "is_irregular": true,
+          "source": null
+        },
+        {
+          "id": "c_007",
+          "cluster_id": "collocations",
+          "sentence": "She agreed ___ everything he said.",
+          "correct": "with",
+          "distractors": [
+            "to",
+            "on",
+            "about"
+          ],
+          "rule_id": "rule_irregular_collocation",
+          "tags": [
+            "difficulty_2",
+            "verb_prep"
+          ],
+          "is_famous": false,
+          "is_irregular": true,
+          "source": null
+        },
+        {
+          "id": "c_008",
+          "cluster_id": "collocations",
+          "sentence": "He is married ___ a doctor he met in university.",
+          "correct": "to",
+          "distractors": [
+            "with",
+            "by",
+            "for"
+          ],
+          "rule_id": "rule_irregular_collocation",
+          "tags": [
+            "difficulty_2",
+            "adjective_prep"
+          ],
+          "is_famous": false,
+          "is_irregular": true,
+          "source": null
+        },
+        {
+          "id": "c_009",
+          "cluster_id": "collocations",
+          "sentence": "She is afraid ___ flying, so she takes the train.",
+          "correct": "of",
+          "distractors": [
+            "about",
+            "from",
+            "with"
+          ],
+          "rule_id": "rule_irregular_collocation",
+          "tags": [
+            "difficulty_1",
+            "adjective_prep"
+          ],
+          "is_famous": false,
+          "is_irregular": true,
+          "source": null
+        },
+        {
+          "id": "c_010",
+          "cluster_id": "collocations",
+          "sentence": "They applied ___ a grant to fund their research.",
+          "correct": "for",
+          "distractors": [
+            "to",
+            "at",
+            "about"
+          ],
+          "rule_id": "rule_irregular_collocation",
+          "tags": [
+            "difficulty_2",
+            "verb_prep"
+          ],
+          "is_famous": false,
+          "is_irregular": true,
+          "source": null
+        },
+        {
+          "id": "c_011",
+          "cluster_id": "collocations",
+          "sentence": "She is always tired ___ doing the same routine every day.",
+          "correct": "of",
+          "distractors": [
+            "from",
+            "with",
+            "about"
+          ],
+          "rule_id": "rule_irregular_collocation",
+          "tags": [
+            "difficulty_1",
+            "adjective_prep"
+          ],
+          "is_famous": false,
+          "is_irregular": true,
+          "source": null
+        },
+        {
+          "id": "c_012",
+          "cluster_id": "collocations",
+          "sentence": "The bottle is full ___ sand from the beach.",
+          "correct": "of",
+          "distractors": [
+            "with",
+            "from",
+            "in"
+          ],
+          "rule_id": "rule_irregular_collocation",
+          "tags": [
+            "difficulty_1",
+            "adjective_prep"
+          ],
+          "is_famous": false,
+          "is_irregular": true,
+          "source": null
+        },
+        {
+          "id": "c_013",
+          "cluster_id": "collocations",
+          "sentence": "This design is very similar ___ the one they used last year.",
+          "correct": "to",
+          "distractors": [
+            "as",
+            "with",
+            "from"
+          ],
+          "rule_id": "rule_irregular_collocation",
+          "tags": [
+            "difficulty_2",
+            "adjective_prep"
+          ],
+          "is_famous": false,
+          "is_irregular": true,
+          "source": null
+        },
+        {
+          "id": "c_014",
+          "cluster_id": "collocations",
+          "sentence": "Her approach is quite different ___ what I expected.",
+          "correct": "from",
+          "distractors": [
+            "to",
+            "than",
+            "with"
+          ],
+          "rule_id": "rule_irregular_collocation",
+          "tags": [
+            "difficulty_2",
+            "adjective_prep"
+          ],
+          "is_famous": false,
+          "is_irregular": true,
+          "source": null
+        },
+        {
+          "id": "c_015",
+          "cluster_id": "collocations",
+          "sentence": "She is grateful ___ all the support she received.",
+          "correct": "for",
+          "distractors": [
+            "to",
+            "about",
+            "of"
+          ],
+          "rule_id": "rule_irregular_collocation",
+          "tags": [
+            "difficulty_1",
+            "adjective_prep"
+          ],
+          "is_famous": false,
+          "is_irregular": true,
+          "source": null
+        },
+        {
+          "id": "c_016",
+          "cluster_id": "collocations",
+          "sentence": "The region is famous ___ its olive oil and wine.",
+          "correct": "for",
+          "distractors": [
+            "of",
+            "about",
+            "by"
+          ],
+          "rule_id": "rule_irregular_collocation",
+          "tags": [
+            "difficulty_1",
+            "adjective_prep"
+          ],
+          "is_famous": false,
+          "is_irregular": true,
+          "source": null
+        },
+        {
+          "id": "c_017",
+          "cluster_id": "collocations",
+          "sentence": "He was angry ___ his colleague for not telling him sooner.",
+          "correct": "with",
+          "distractors": [
+            "at",
+            "about",
+            "to"
+          ],
+          "rule_id": "rule_irregular_collocation",
+          "tags": [
+            "difficulty_3",
+            "adjective_prep"
+          ],
+          "is_famous": false,
+          "is_irregular": true,
+          "source": null
+        },
+        {
+          "id": "c_018",
+          "cluster_id": "collocations",
+          "sentence": "She is worried ___ the results of the exam.",
+          "correct": "about",
+          "distractors": [
+            "for",
+            "of",
+            "from"
+          ],
+          "rule_id": "rule_irregular_collocation",
+          "tags": [
+            "difficulty_1",
+            "adjective_prep"
+          ],
+          "is_famous": false,
+          "is_irregular": true,
+          "source": null
+        },
+        {
+          "id": "c_019",
+          "cluster_id": "collocations",
+          "sentence": "He finds it hard to concentrate ___ one thing for too long.",
+          "correct": "on",
+          "distractors": [
+            "in",
+            "at",
+            "about"
+          ],
+          "rule_id": "rule_irregular_collocation",
+          "tags": [
+            "difficulty_1",
+            "verb_prep"
+          ],
+          "is_famous": false,
+          "is_irregular": true,
+          "source": null
+        },
+        {
+          "id": "c_020",
+          "cluster_id": "collocations",
+          "sentence": "We can always rely ___ her to get the job done.",
+          "correct": "on",
+          "distractors": [
+            "in",
+            "upon",
+            "at"
+          ],
+          "rule_id": "rule_irregular_collocation",
+          "tags": [
+            "difficulty_2",
+            "verb_prep"
+          ],
+          "is_famous": false,
+          "is_irregular": true,
+          "source": null
+        },
+        {
+          "id": "c_021",
+          "cluster_id": "collocations",
+          "sentence": "The team consists ___ five members from different departments.",
+          "correct": "of",
+          "distractors": [
+            "from",
+            "in",
+            "with"
+          ],
+          "rule_id": "rule_irregular_collocation",
+          "tags": [
+            "difficulty_1",
+            "verb_prep"
+          ],
+          "is_famous": false,
+          "is_irregular": true,
+          "source": null
+        },
+        {
+          "id": "c_022",
+          "cluster_id": "collocations",
+          "sentence": "This ring belonged ___ my great-grandmother.",
+          "correct": "to",
+          "distractors": [
+            "of",
+            "with",
+            "from"
+          ],
+          "rule_id": "rule_irregular_collocation",
+          "tags": [
+            "difficulty_1",
+            "verb_prep"
+          ],
+          "is_famous": false,
+          "is_irregular": true,
+          "source": null
+        },
+        {
+          "id": "c_023",
+          "cluster_id": "collocations",
+          "sentence": "He was accused ___ stealing from the company.",
+          "correct": "of",
+          "distractors": [
+            "for",
+            "about",
+            "with"
+          ],
+          "rule_id": "rule_irregular_collocation",
+          "tags": [
+            "difficulty_2",
+            "verb_prep"
+          ],
+          "is_famous": false,
+          "is_irregular": true,
+          "source": null
+        },
+        {
+          "id": "c_024",
+          "cluster_id": "collocations",
+          "sentence": "She dreams ___ owning her own restaurant one day.",
+          "correct": "of",
+          "distractors": [
+            "for",
+            "in",
+            "on"
+          ],
+          "rule_id": "rule_irregular_collocation",
+          "tags": [
+            "difficulty_2",
+            "verb_prep"
+          ],
+          "is_famous": false,
+          "is_irregular": true,
+          "source": null
+        },
+        {
+          "id": "c_025",
+          "cluster_id": "collocations",
+          "sentence": "She's been waiting ___ a reply for over two weeks.",
+          "correct": "for",
+          "distractors": [
+            "to",
+            "on",
+            "about"
+          ],
+          "rule_id": "rule_irregular_collocation",
+          "tags": [
+            "difficulty_1",
+            "verb_prep"
+          ],
+          "is_famous": false,
+          "is_irregular": true,
+          "source": null
+        },
+        {
+          "id": "c_026",
+          "cluster_id": "collocations",
+          "sentence": "He just sat there and stared ___ the screen without moving.",
+          "correct": "at",
+          "distractors": [
+            "to",
+            "on",
+            "in"
+          ],
+          "rule_id": "rule_irregular_collocation",
+          "tags": [
+            "difficulty_1",
+            "verb_prep"
+          ],
+          "is_famous": false,
+          "is_irregular": true,
+          "source": null
+        },
+        {
+          "id": "c_027",
+          "cluster_id": "collocations",
+          "sentence": "Did you remember to pay ___ the parking?",
+          "correct": "for",
+          "distractors": [
+            "to",
+            "about",
+            "on"
+          ],
+          "rule_id": "rule_irregular_collocation",
+          "tags": [
+            "difficulty_1",
+            "verb_prep"
+          ],
+          "is_famous": false,
+          "is_irregular": true,
+          "source": null
+        },
+        {
+          "id": "c_028",
+          "cluster_id": "collocations",
+          "sentence": "Can you compare these two results ___ the figures from last year?",
+          "correct": "with",
+          "distractors": [
+            "to",
+            "against",
+            "from"
+          ],
+          "rule_id": "rule_irregular_collocation",
+          "tags": [
+            "difficulty_3",
+            "verb_prep"
+          ],
+          "is_famous": false,
+          "is_irregular": true,
+          "source": null
+        },
+        {
+          "id": "c_029",
+          "cluster_id": "collocations",
+          "sentence": "She has suffered ___ migraines since she was a teenager.",
+          "correct": "from",
+          "distractors": [
+            "with",
+            "of",
+            "at"
+          ],
+          "rule_id": "rule_irregular_collocation",
+          "tags": [
+            "difficulty_1",
+            "verb_prep"
+          ],
+          "is_famous": false,
+          "is_irregular": true,
+          "source": null
+        },
+        {
+          "id": "c_030",
+          "cluster_id": "collocations",
+          "sentence": "The argument resulted ___ both of them refusing to speak to each other.",
+          "correct": "in",
+          "distractors": [
+            "from",
+            "of",
+            "with"
+          ],
+          "rule_id": "rule_irregular_collocation",
+          "tags": [
+            "difficulty_2",
+            "verb_prep"
+          ],
+          "is_famous": false,
+          "is_irregular": true,
+          "source": null
+        },
+        {
+          "id": "c_031",
+          "cluster_id": "collocations",
+          "sentence": "She doesn't believe ___ making promises she can't keep.",
+          "correct": "in",
+          "distractors": [
+            "on",
+            "at",
+            "with"
+          ],
+          "rule_id": "rule_irregular_collocation",
+          "tags": [
+            "difficulty_2",
+            "verb_prep"
+          ],
+          "is_famous": false,
+          "is_irregular": true,
+          "source": null
+        },
+        {
+          "id": "c_032",
+          "cluster_id": "collocations",
+          "sentence": "He insisted ___ paying for everyone's dinner.",
+          "correct": "on",
+          "distractors": [
+            "in",
+            "at",
+            "for"
+          ],
+          "rule_id": "rule_irregular_collocation",
+          "tags": [
+            "difficulty_2",
+            "verb_prep"
+          ],
+          "is_famous": false,
+          "is_irregular": true,
+          "source": null
+        },
+        {
+          "id": "c_033",
+          "cluster_id": "collocations",
+          "sentence": "She eventually succeeded ___ convincing the board to approve the plan.",
+          "correct": "in",
+          "distractors": [
+            "at",
+            "with",
+            "on"
+          ],
+          "rule_id": "rule_irregular_collocation",
+          "tags": [
+            "difficulty_2",
+            "verb_prep"
+          ],
+          "is_famous": false,
+          "is_irregular": true,
+          "source": null
+        },
+        {
+          "id": "c_034",
+          "cluster_id": "collocations",
+          "sentence": "He has always specialised ___ tax law.",
+          "correct": "in",
+          "distractors": [
+            "at",
+            "on",
+            "with"
+          ],
+          "rule_id": "rule_irregular_collocation",
+          "tags": [
+            "difficulty_1",
+            "verb_prep"
+          ],
+          "is_famous": false,
+          "is_irregular": true,
+          "source": null
+        },
+        {
+          "id": "c_035",
+          "cluster_id": "collocations",
+          "sentence": "She is very keen ___ learning new skills.",
+          "correct": "on",
+          "distractors": [
+            "in",
+            "for",
+            "about"
+          ],
+          "rule_id": "rule_irregular_collocation",
+          "tags": [
+            "difficulty_2",
+            "adjective_prep"
+          ],
+          "is_famous": false,
+          "is_irregular": true,
+          "source": null
+        },
+        {
+          "id": "c_036",
+          "cluster_id": "collocations",
+          "sentence": "He is not very good ___ remembering names.",
+          "correct": "at",
+          "distractors": [
+            "in",
+            "with",
+            "on"
+          ],
+          "rule_id": "rule_irregular_collocation",
+          "tags": [
+            "difficulty_1",
+            "adjective_prep"
+          ],
+          "is_famous": false,
+          "is_irregular": true,
+          "source": null
+        },
+        {
+          "id": "c_037",
+          "cluster_id": "collocations",
+          "sentence": "She felt ashamed ___ what she had done.",
+          "correct": "of",
+          "distractors": [
+            "about",
+            "for",
+            "from"
+          ],
+          "rule_id": "rule_irregular_collocation",
+          "tags": [
+            "difficulty_2",
+            "adjective_prep"
+          ],
+          "is_famous": false,
+          "is_irregular": true,
+          "source": null
+        },
+        {
+          "id": "c_038",
+          "cluster_id": "collocations",
+          "sentence": "He is very fond ___ classical music.",
+          "correct": "of",
+          "distractors": [
+            "in",
+            "about",
+            "with"
+          ],
+          "rule_id": "rule_irregular_collocation",
+          "tags": [
+            "difficulty_1",
+            "adjective_prep"
+          ],
+          "is_famous": false,
+          "is_irregular": true,
+          "source": null
+        },
+        {
+          "id": "c_039",
+          "cluster_id": "collocations",
+          "sentence": "She is capable ___ much more than she lets on.",
+          "correct": "of",
+          "distractors": [
+            "in",
+            "at",
+            "for"
+          ],
+          "rule_id": "rule_irregular_collocation",
+          "tags": [
+            "difficulty_2",
+            "adjective_prep"
+          ],
+          "is_famous": false,
+          "is_irregular": true,
+          "source": null
+        },
+        {
+          "id": "c_040",
+          "cluster_id": "collocations",
+          "sentence": "He is passionate ___ environmental issues.",
+          "correct": "about",
+          "distractors": [
+            "for",
+            "in",
+            "of"
+          ],
+          "rule_id": "rule_irregular_collocation",
+          "tags": [
+            "difficulty_1",
+            "adjective_prep"
+          ],
+          "is_famous": false,
+          "is_irregular": true,
+          "source": null
+        },
+        {
+          "id": "c_041",
+          "cluster_id": "collocations",
+          "sentence": "She's been complaining ___ her back for months.",
+          "correct": "about",
+          "distractors": [
+            "of",
+            "from",
+            "on"
+          ],
+          "rule_id": "rule_irregular_collocation",
+          "tags": [
+            "difficulty_1",
+            "verb_prep"
+          ],
+          "is_famous": false,
+          "is_irregular": true,
+          "source": null
+        },
+        {
+          "id": "c_042",
+          "cluster_id": "collocations",
+          "sentence": "He has to deal ___ a lot of complaints from customers.",
+          "correct": "with",
+          "distractors": [
+            "in",
+            "for",
+            "about"
+          ],
+          "rule_id": "rule_irregular_collocation",
+          "tags": [
+            "difficulty_2",
+            "verb_prep"
+          ],
+          "is_famous": false,
+          "is_irregular": true,
+          "source": null
+        },
+        {
+          "id": "c_043",
+          "cluster_id": "collocations",
+          "sentence": "She is very sensitive ___ criticism.",
+          "correct": "to",
+          "distractors": [
+            "about",
+            "of",
+            "with"
+          ],
+          "rule_id": "rule_irregular_collocation",
+          "tags": [
+            "difficulty_2",
+            "adjective_prep"
+          ],
+          "is_famous": false,
+          "is_irregular": true,
+          "source": null
+        },
+        {
+          "id": "c_044",
+          "cluster_id": "collocations",
+          "sentence": "He is aware ___ the risks involved.",
+          "correct": "of",
+          "distractors": [
+            "about",
+            "with",
+            "from"
+          ],
+          "rule_id": "rule_irregular_collocation",
+          "tags": [
+            "difficulty_1",
+            "adjective_prep"
+          ],
+          "is_famous": false,
+          "is_irregular": true,
+          "source": null
+        },
+        {
+          "id": "c_045",
+          "cluster_id": "collocations",
+          "sentence": "They had to apologise ___ being late to the meeting.",
+          "correct": "for",
+          "distractors": [
+            "about",
+            "to",
+            "of"
+          ],
+          "rule_id": "rule_irregular_collocation",
+          "tags": [
+            "difficulty_1",
+            "verb_prep"
+          ],
+          "is_famous": false,
+          "is_irregular": true,
+          "source": null
+        },
+        {
+          "id": "c_046",
+          "cluster_id": "collocations",
+          "sentence": "She is addicted ___ coffee and can't function without it.",
+          "correct": "to",
+          "distractors": [
+            "on",
+            "in",
+            "with"
+          ],
+          "rule_id": "rule_irregular_collocation",
+          "tags": [
+            "difficulty_1",
+            "adjective_prep"
+          ],
+          "is_famous": false,
+          "is_irregular": true,
+          "source": null
+        },
+        {
+          "id": "c_047",
+          "cluster_id": "collocations",
+          "sentence": "He takes great pride ___ his work.",
+          "correct": "in",
+          "distractors": [
+            "of",
+            "on",
+            "about"
+          ],
+          "rule_id": "rule_irregular_collocation",
+          "tags": [
+            "difficulty_2",
+            "verb_prep"
+          ],
+          "is_famous": false,
+          "is_irregular": true,
+          "source": null
+        },
+        {
+          "id": "c_048",
+          "cluster_id": "collocations",
+          "sentence": "She is allergic ___ cats, so she can't visit their house.",
+          "correct": "to",
+          "distractors": [
+            "from",
+            "with",
+            "of"
+          ],
+          "rule_id": "rule_irregular_collocation",
+          "tags": [
+            "difficulty_1",
+            "adjective_prep"
+          ],
+          "is_famous": false,
+          "is_irregular": true,
+          "source": null
+        },
+        {
+          "id": "c_049",
+          "cluster_id": "collocations",
+          "sentence": "He gets on very well ___ his new colleagues.",
+          "correct": "with",
+          "distractors": [
+            "to",
+            "about",
+            "at"
+          ],
+          "rule_id": "rule_irregular_collocation",
+          "tags": [
+            "difficulty_2",
+            "verb_prep"
+          ],
+          "is_famous": false,
+          "is_irregular": true,
+          "source": null
+        },
+        {
+          "id": "c_050",
+          "cluster_id": "collocations",
+          "sentence": "He was disappointed ___ the outcome of the vote.",
+          "correct": "with",
+          "distractors": [
+            "about",
+            "in",
+            "by"
+          ],
+          "rule_id": "rule_irregular_collocation",
+          "tags": [
+            "difficulty_3",
+            "adjective_prep"
+          ],
+          "is_famous": false,
+          "is_irregular": true,
+          "source": null
+        }
+      ]
+    },
+    {
+      "id": "famous_lines",
+      "title": "You've Heard This Before",
+      "subtitle": "Songs, films, and famous quotes",
+      "prepositions": [
+        "in",
+        "on",
+        "at",
+        "to",
+        "for",
+        "with",
+        "of",
+        "about",
+        "from",
+        "by",
+        "over"
+      ],
+      "intro_rules": [],
+      "contrast_note": "You probably know these — now identify the preposition.",
+      "cards": [
+        {
+          "id": "f_001",
+          "cluster_id": "famous_lines",
+          "sentence": "May the Force be ___ you.",
+          "correct": "with",
+          "distractors": [
+            "for",
+            "in",
+            "on"
+          ],
+          "rule_id": "rule_with_accompaniment",
+          "tags": [
+            "difficulty_1"
+          ],
+          "is_famous": true,
+          "is_irregular": false,
+          "source": "Star Wars (1977)"
+        },
+        {
+          "id": "f_002",
+          "cluster_id": "famous_lines",
+          "sentence": "Welcome ___ the Hotel California.",
+          "correct": "to",
+          "distractors": [
+            "in",
+            "at",
+            "for"
+          ],
+          "rule_id": "rule_to_destination",
+          "tags": [
+            "difficulty_1"
+          ],
+          "is_famous": true,
+          "is_irregular": false,
+          "source": "Hotel California — Eagles (1977)"
+        },
+        {
+          "id": "f_003",
+          "cluster_id": "famous_lines",
+          "sentence": "We're living ___ a prayer.",
+          "correct": "on",
+          "distractors": [
+            "in",
+            "for",
+            "by"
+          ],
+          "rule_id": "rule_irregular_collocation",
+          "tags": [
+            "difficulty_2"
+          ],
+          "is_famous": true,
+          "is_irregular": true,
+          "source": "Livin' on a Prayer — Bon Jovi (1986)"
+        },
+        {
+          "id": "f_004",
+          "cluster_id": "famous_lines",
+          "sentence": "The answer is blowin' ___ the wind.",
+          "correct": "in",
+          "distractors": [
+            "on",
+            "with",
+            "through"
+          ],
+          "rule_id": "rule_in_enclosed_space",
+          "tags": [
+            "difficulty_1"
+          ],
+          "is_famous": true,
+          "is_irregular": false,
+          "source": "Blowin' in the Wind — Bob Dylan (1963)"
+        },
+        {
+          "id": "f_005",
+          "cluster_id": "famous_lines",
+          "sentence": "The Sound ___ Silence.",
+          "correct": "of",
+          "distractors": [
+            "from",
+            "in",
+            "about"
+          ],
+          "rule_id": "rule_of_possession",
+          "tags": [
+            "difficulty_1"
+          ],
+          "is_famous": true,
+          "is_irregular": false,
+          "source": "The Sound of Silence — Simon & Garfunkel (1964)"
+        },
+        {
+          "id": "f_006",
+          "cluster_id": "famous_lines",
+          "sentence": "Lean ___ me, when you're not strong.",
+          "correct": "on",
+          "distractors": [
+            "to",
+            "with",
+            "by"
+          ],
+          "rule_id": "rule_irregular_collocation",
+          "tags": [
+            "difficulty_2"
+          ],
+          "is_famous": true,
+          "is_irregular": true,
+          "source": "Lean on Me — Bill Withers (1972)"
+        },
+        {
+          "id": "f_007",
+          "cluster_id": "famous_lines",
+          "sentence": "Stand ___ me. Don't be afraid.",
+          "correct": "by",
+          "distractors": [
+            "with",
+            "for",
+            "near"
+          ],
+          "rule_id": "rule_irregular_collocation",
+          "tags": [
+            "difficulty_2"
+          ],
+          "is_famous": true,
+          "is_irregular": true,
+          "source": "Stand by Me — Ben E. King (1961)"
+        },
+        {
+          "id": "f_008",
+          "cluster_id": "famous_lines",
+          "sentence": "You've got a friend ___ me.",
+          "correct": "in",
+          "distractors": [
+            "with",
+            "for",
+            "from"
+          ],
+          "rule_id": "rule_irregular_collocation",
+          "tags": [
+            "difficulty_2"
+          ],
+          "is_famous": true,
+          "is_irregular": true,
+          "source": "You've Got a Friend in Me — Randy Newman / Toy Story (1995)"
+        },
+        {
+          "id": "f_009",
+          "cluster_id": "famous_lines",
+          "sentence": "Don't you forget ___ me.",
+          "correct": "about",
+          "distractors": [
+            "of",
+            "from",
+            "with"
+          ],
+          "rule_id": "rule_about_topic",
+          "tags": [
+            "difficulty_1"
+          ],
+          "is_famous": true,
+          "is_irregular": false,
+          "source": "Don't You (Forget About Me) — Simple Minds (1985)"
+        },
+        {
+          "id": "f_010",
+          "cluster_id": "famous_lines",
+          "sentence": "I'll be there ___ you.",
+          "correct": "for",
+          "distractors": [
+            "with",
+            "to",
+            "at"
+          ],
+          "rule_id": "rule_for_purpose",
+          "tags": [
+            "difficulty_1"
+          ],
+          "is_famous": true,
+          "is_irregular": false,
+          "source": "I'll Be There for You — The Rembrandts / Friends (1994)"
+        },
+        {
+          "id": "f_011",
+          "cluster_id": "famous_lines",
+          "sentence": "Born ___ the USA.",
+          "correct": "in",
+          "distractors": [
+            "on",
+            "at",
+            "from"
+          ],
+          "rule_id": "rule_in_area",
+          "tags": [
+            "difficulty_1"
+          ],
+          "is_famous": true,
+          "is_irregular": false,
+          "source": "Born in the USA — Bruce Springsteen (1984)"
+        },
+        {
+          "id": "f_012",
+          "cluster_id": "famous_lines",
+          "sentence": "Walking ___ sunshine.",
+          "correct": "on",
+          "distractors": [
+            "in",
+            "with",
+            "through"
+          ],
+          "rule_id": "rule_irregular_collocation",
+          "tags": [
+            "difficulty_2"
+          ],
+          "is_famous": true,
+          "is_irregular": true,
+          "source": "Walking on Sunshine — Katrina and the Waves (1985)"
+        },
+        {
+          "id": "f_013",
+          "cluster_id": "famous_lines",
+          "sentence": "Take ___ me.",
+          "correct": "on",
+          "distractors": [
+            "to",
+            "in",
+            "with"
+          ],
+          "rule_id": "rule_irregular_collocation",
+          "tags": [
+            "difficulty_3"
+          ],
+          "is_famous": true,
+          "is_irregular": true,
+          "source": "Take On Me — A-ha (1985)"
+        },
+        {
+          "id": "f_014",
+          "cluster_id": "famous_lines",
+          "sentence": "Riders ___ the storm.",
+          "correct": "on",
+          "distractors": [
+            "in",
+            "through",
+            "of"
+          ],
+          "rule_id": "rule_on_surface",
+          "tags": [
+            "difficulty_2"
+          ],
+          "is_famous": true,
+          "is_irregular": false,
+          "source": "Riders on the Storm — The Doors (1971)"
+        },
+        {
+          "id": "f_015",
+          "cluster_id": "famous_lines",
+          "sentence": "Singin' ___ the rain.",
+          "correct": "in",
+          "distractors": [
+            "on",
+            "through",
+            "under"
+          ],
+          "rule_id": "rule_in_area",
+          "tags": [
+            "difficulty_1"
+          ],
+          "is_famous": true,
+          "is_irregular": false,
+          "source": "Singin' in the Rain — Gene Kelly (1952)"
+        },
+        {
+          "id": "f_016",
+          "cluster_id": "famous_lines",
+          "sentence": "That's one small step ___ man.",
+          "correct": "for",
+          "distractors": [
+            "of",
+            "to",
+            "by"
+          ],
+          "rule_id": "rule_for_purpose",
+          "tags": [
+            "difficulty_1"
+          ],
+          "is_famous": true,
+          "is_irregular": false,
+          "source": "Neil Armstrong, Moon landing (1969)"
+        },
+        {
+          "id": "f_017",
+          "cluster_id": "famous_lines",
+          "sentence": "Bridge ___ troubled water.",
+          "correct": "over",
+          "distractors": [
+            "on",
+            "through",
+            "above"
+          ],
+          "rule_id": "rule_irregular_collocation",
+          "tags": [
+            "difficulty_2"
+          ],
+          "is_famous": true,
+          "is_irregular": false,
+          "source": "Bridge over Troubled Water — Simon & Garfunkel (1970)"
+        },
+        {
+          "id": "f_018",
+          "cluster_id": "famous_lines",
+          "sentence": "Get ___ the bus, Gus.",
+          "correct": "on",
+          "distractors": [
+            "in",
+            "off",
+            "to"
+          ],
+          "rule_id": "rule_on_transport",
+          "tags": [
+            "difficulty_1"
+          ],
+          "is_famous": true,
+          "is_irregular": false,
+          "source": "50 Ways to Leave Your Lover — Simon & Garfunkel (1975)"
+        },
+        {
+          "id": "f_019",
+          "cluster_id": "famous_lines",
+          "sentence": "Reach ___ the sky!",
+          "correct": "for",
+          "distractors": [
+            "to",
+            "up",
+            "at"
+          ],
+          "rule_id": "rule_for_purpose",
+          "tags": [
+            "difficulty_1"
+          ],
+          "is_famous": true,
+          "is_irregular": false,
+          "source": "Toy Story — Woody (1995)"
+        },
+        {
+          "id": "f_020",
+          "cluster_id": "famous_lines",
+          "sentence": "I'm ___ the top of the world, Ma.",
+          "correct": "on",
+          "distractors": [
+            "at",
+            "in",
+            "to"
+          ],
+          "rule_id": "rule_on_surface",
+          "tags": [
+            "difficulty_2"
+          ],
+          "is_famous": true,
+          "is_irregular": true,
+          "source": "Top of the World — The Carpenters (1972)"
+        },
+        {
+          "id": "f_021",
+          "cluster_id": "famous_lines",
+          "sentence": "Knock ___ heaven's door.",
+          "correct": "on",
+          "distractors": [
+            "at",
+            "to",
+            "for"
+          ],
+          "rule_id": "rule_on_surface",
+          "tags": [
+            "difficulty_2"
+          ],
+          "is_famous": true,
+          "is_irregular": false,
+          "source": "Knockin' on Heaven's Door — Bob Dylan (1973)"
+        },
+        {
+          "id": "f_022",
+          "cluster_id": "famous_lines",
+          "sentence": "Message ___ a bottle.",
+          "correct": "in",
+          "distractors": [
+            "on",
+            "from",
+            "inside"
+          ],
+          "rule_id": "rule_in_enclosed_space",
+          "tags": [
+            "difficulty_1"
+          ],
+          "is_famous": true,
+          "is_irregular": false,
+          "source": "Message in a Bottle — The Police (1979)"
+        },
+        {
+          "id": "f_023",
+          "cluster_id": "famous_lines",
+          "sentence": "Dancing ___ the moonlight.",
+          "correct": "in",
+          "distractors": [
+            "on",
+            "under",
+            "by"
+          ],
+          "rule_id": "rule_in_area",
+          "tags": [
+            "difficulty_1"
+          ],
+          "is_famous": true,
+          "is_irregular": false,
+          "source": "Dancing in the Moonlight — King Harvest (1972)"
+        },
+        {
+          "id": "f_024",
+          "cluster_id": "famous_lines",
+          "sentence": "In the name ___ love.",
+          "correct": "of",
+          "distractors": [
+            "from",
+            "for",
+            "about"
+          ],
+          "rule_id": "rule_of_possession",
+          "tags": [
+            "difficulty_1"
+          ],
+          "is_famous": true,
+          "is_irregular": false,
+          "source": "Pride (In the Name of Love) — U2 (1984)"
+        },
+        {
+          "id": "f_025",
+          "cluster_id": "famous_lines",
+          "sentence": "Life is like a box ___ chocolates.",
+          "correct": "of",
+          "distractors": [
+            "with",
+            "from",
+            "full"
+          ],
+          "rule_id": "rule_of_possession",
+          "tags": [
+            "difficulty_1"
+          ],
+          "is_famous": true,
+          "is_irregular": false,
+          "source": "Forrest Gump (1994)"
+        },
+        {
+          "id": "f_026",
+          "cluster_id": "famous_lines",
+          "sentence": "Fight ___ your right to party.",
+          "correct": "for",
+          "distractors": [
+            "on",
+            "with",
+            "about"
+          ],
+          "rule_id": "rule_for_purpose",
+          "tags": [
+            "difficulty_1"
+          ],
+          "is_famous": true,
+          "is_irregular": false,
+          "source": "(You Gotta) Fight for Your Right — Beastie Boys (1986)"
+        },
+        {
+          "id": "f_027",
+          "cluster_id": "famous_lines",
+          "sentence": "Waiting ___ a girl like you.",
+          "correct": "for",
+          "distractors": [
+            "on",
+            "with",
+            "to"
+          ],
+          "rule_id": "rule_for_purpose",
+          "tags": [
+            "difficulty_1"
+          ],
+          "is_famous": true,
+          "is_irregular": false,
+          "source": "Waiting for a Girl Like You — Foreigner (1981)"
+        },
+        {
+          "id": "f_028",
+          "cluster_id": "famous_lines",
+          "sentence": "Thinking ___ you.",
+          "correct": "of",
+          "distractors": [
+            "about",
+            "for",
+            "with"
+          ],
+          "rule_id": "rule_about_topic",
+          "tags": [
+            "difficulty_3"
+          ],
+          "is_famous": true,
+          "is_irregular": false,
+          "source": "Thinking of You — Katy Perry (2009) / various"
+        },
+        {
+          "id": "f_029",
+          "cluster_id": "famous_lines",
+          "sentence": "On the road ___ nowhere.",
+          "correct": "to",
+          "distractors": [
+            "for",
+            "of",
+            "towards"
+          ],
+          "rule_id": "rule_to_destination",
+          "tags": [
+            "difficulty_1"
+          ],
+          "is_famous": true,
+          "is_irregular": false,
+          "source": "Road to Nowhere — Talking Heads (1985)"
+        },
+        {
+          "id": "f_030",
+          "cluster_id": "famous_lines",
+          "sentence": "Somewhere ___ a rainbow.",
+          "correct": "over",
+          "distractors": [
+            "above",
+            "beyond",
+            "through"
+          ],
+          "rule_id": "rule_irregular_collocation",
+          "tags": [
+            "difficulty_1"
+          ],
+          "is_famous": true,
+          "is_irregular": false,
+          "source": "Somewhere Over the Rainbow — Wizard of Oz (1939)"
+        }
+      ]
+    }
+  ]
+}
